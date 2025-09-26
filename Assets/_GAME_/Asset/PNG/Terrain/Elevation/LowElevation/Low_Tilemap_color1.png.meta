@@ -1,0 +1,1093 @@
+fileFormatVersion: 2
+guid: 6835de2c09e5c37469df08a4a6272f45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4684625920699962428
+    second: Tilemap_color1_0
+  - first:
+      213: -2801873246907429078
+    second: Tilemap_color1_1
+  - first:
+      213: 7801342956118196415
+    second: Tilemap_color1_2
+  - first:
+      213: 2381845703017299674
+    second: Tilemap_color1_3
+  - first:
+      213: 5980407047448068244
+    second: Tilemap_color1_4
+  - first:
+      213: 7614361197189378962
+    second: Tilemap_color1_5
+  - first:
+      213: -4455189763106589383
+    second: Tilemap_color1_6
+  - first:
+      213: 2514084195207275289
+    second: Tilemap_color1_7
+  - first:
+      213: 6012010895760242090
+    second: Tilemap_color1_8
+  - first:
+      213: 3062889884838147064
+    second: Tilemap_color1_9
+  - first:
+      213: 1418375321201274708
+    second: Tilemap_color1_10
+  - first:
+      213: -8992189254483969355
+    second: Tilemap_color1_11
+  - first:
+      213: -3293826169491285364
+    second: Tilemap_color1_12
+  - first:
+      213: 2468736761819628169
+    second: Tilemap_color1_13
+  - first:
+      213: 249127335269095975
+    second: Tilemap_color1_14
+  - first:
+      213: 120966392478926727
+    second: Tilemap_color1_15
+  - first:
+      213: 1311339825560053648
+    second: Tilemap_color1_16
+  - first:
+      213: 7518868150231657459
+    second: Tilemap_color1_17
+  - first:
+      213: 2944866425670003460
+    second: Tilemap_color1_18
+  - first:
+      213: -2804451518926523279
+    second: Tilemap_color1_19
+  - first:
+      213: -4336045200530116284
+    second: Tilemap_color1_20
+  - first:
+      213: -5663187401509772035
+    second: Tilemap_color1_21
+  - first:
+      213: -7962071013999737797
+    second: Tilemap_color1_22
+  - first:
+      213: 7272332894472844370
+    second: Tilemap_color1_23
+  - first:
+      213: -7473837398066495716
+    second: Tilemap_color1_24
+  - first:
+      213: 2205626041221952261
+    second: Tilemap_color1_25
+  - first:
+      213: 8761957845823429309
+    second: Tilemap_color1_26
+  - first:
+      213: -7602718512742726791
+    second: Tilemap_color1_27
+  - first:
+      213: 4299903223893273855
+    second: Tilemap_color1_28
+  - first:
+      213: -156968979077948116
+    second: Tilemap_color1_29
+  - first:
+      213: -6005370149783978446
+    second: Tilemap_color1_30
+  - first:
+      213: -3887639646538638151
+    second: Tilemap_color1_31
+  - first:
+      213: -7676271994124391679
+    second: Tilemap_color1_32
+  - first:
+      213: -567363726576857262
+    second: Tilemap_color1_33
+  - first:
+      213: -5170102666605548192
+    second: Tilemap_color1_34
+  - first:
+      213: -6914060815751580637
+    second: Tilemap_color1_35
+  - first:
+      213: -2818783850665287378
+    second: Tilemap_color1_36
+  - first:
+      213: 4877094068914342608
+    second: Tilemap_color1_37
+  - first:
+      213: -5460246916487401979
+    second: Tilemap_color1_38
+  - first:
+      213: 8040887467247185324
+    second: Tilemap_color1_39
+  - first:
+      213: 6659697122546123297
+    second: Tilemap_color1_40
+  - first:
+      213: -5328810533467712069
+    second: Tilemap_color1_41
+  - first:
+      213: 3858118010278745957
+    second: Tilemap_color1_42
+  - first:
+      213: -3793614902417640485
+    second: Tilemap_color1_43
+  - first:
+      213: -918892767159726313
+    second: Tilemap_color1_44
+  - first:
+      213: 3368758497067531475
+    second: Tilemap_color1_45
+  - first:
+      213: 5809642575974107265
+    second: Tilemap_color1_46
+  - first:
+      213: -2717959069546875479
+    second: Tilemap_color1_47
+  - first:
+      213: -2730756614561629265
+    second: Tilemap_color1_48
+  - first:
+      213: -1600266700000864503
+    second: Tilemap_color1_49
+  - first:
+      213: -6162260638384905595
+    second: Tilemap_color1_50
+  - first:
+      213: -7989441365163098092
+    second: Tilemap_color1_51
+  - first:
+      213: -4156132361999277927
+    second: Tilemap_color1_52
+  - first:
+      213: 6678773690062355152
+    second: Tilemap_color1_53
+  - first:
+      213: -5833622645773596244
+    second: Tilemap_color1_54
+  - first:
+      213: 46385456578341019
+    second: Tilemap_color1_55
+  - first:
+      213: -5490583000368920266
+    second: Tilemap_color1_56
+  - first:
+      213: 6025417231891396771
+    second: Tilemap_color1_57
+  - first:
+      213: -389833285977466161
+    second: Tilemap_color1_58
+  - first:
+      213: -6876386774670606448
+    second: Tilemap_color1_59
+  - first:
+      213: 2213162740780828126
+    second: Tilemap_color1_60
+  - first:
+      213: -2121317567515395388
+    second: Tilemap_color1_61
+  - first:
+      213: 7278956865320723726
+    second: Tilemap_color1_62
+  - first:
+      213: 2442936209934616833
+    second: Tilemap_color1_63
+  - first:
+      213: 8525603795300512417
+    second: Tilemap_color1_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -11}
+        - {x: -17, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddf866cee2f84847a534812bc82cfe4
+      internalID: -636377560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -13}
+        - {x: -32, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd5db021fe396e42a19fe2f737415dc
+      internalID: -904574392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_24
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: 15, y: -32}
+        - {x: 15, y: -13}
+        - {x: -32, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4fca8058a4ca740a213042b1f0655a
+      internalID: 901190826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_25
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01e1c173025ea54ea6bf167b981c983
+      internalID: 1145293570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cf346e11291834d9f9bb3cb0218ee3
+      internalID: 1132418119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_27
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c6025ece9dfc349adeb2212fb51dd5
+      internalID: 12813789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_36
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+        - {x: -17, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbacb975eb4b8b44aacf6d408853c045
+      internalID: 292095279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_37
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293cbeecc759ff049a93f8bdf7904729
+      internalID: 727101364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_38
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: 15, y: -32}
+        - {x: 15, y: 32}
+        - {x: -32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c014c7fa53abd4a96bf5fc79b1cd61
+      internalID: -1785481113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66ec6603b9ae904ea6eb1f3896e7e8b
+      internalID: -1986594917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_40
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b29bc60d88511441a42eae0bcc53c90
+      internalID: 2021853058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_41
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03d1b2e677174c41916a61f90f7df59
+      internalID: 1061391827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_50
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+        - {x: -17, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b32a5a8e663624ab9dc9e34fb4c5e1
+      internalID: -1126454608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a115487c27d2f4283e18749e46a9d7
+      internalID: 1067155862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_52
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: 15, y: -32}
+        - {x: 15, y: 32}
+        - {x: -32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79eb1d9ea59ee1247a5dd898e7e9e8f1
+      internalID: 1201759660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_53
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d8d2fe003dffe45a767d58b1641502
+      internalID: -1361225258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_62
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: 32}
+        - {x: -32, y: 32}
+        - {x: -28, y: 7}
+        - {x: -20, y: -14}
+        - {x: 15, y: -18}
+        - {x: 32, y: -18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cf166ddd9da8943a6f9bf1cae442e6
+      internalID: 958266315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_63
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: -13}
+        - {x: 32, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: -17}
+        - {x: 28, y: -17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c900c1c6bedbfbc438d9adba29ccc243
+      internalID: -2070836246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_64
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 26, y: -1}
+        - {x: 32, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: -17}
+        - {x: 18, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16197de8d6e53444ab4a603e4520e068
+      internalID: 116271910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_65
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c327c3d91ba4a0418cd7b60217a25b8
+      internalID: 2106005086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_74
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9031e857aca7f8a4f8a64f75851d6582
+      internalID: -1124665516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_75
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e466ca4dfa18a2468a04c1f25edc821
+      internalID: -1069744351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_76
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4593b9e96c23648b2b3f5eb1c3c9b5
+      internalID: 924214594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_77
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27059ae027fc46a4e98a2aa15504dbb1
+      internalID: 1910184795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_86
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75989b918c011c74298ccdf3afb9a520
+      internalID: -1602697045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_87
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d6cfdaaa19b0b4fb817a6c96e5c60c
+      internalID: 428076045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_88
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b81dbbf8846e543a54a3b125341973
+      internalID: -579967877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Low_Tilemap_color1_89
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd6e413d3427ad449c63a04c2530a3b
+      internalID: 1049098080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cfe10027eb846f14597c74cd3ca4469a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.25},"autoSlicingMethod":0,"spriteAlignment":9,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Low_Tilemap_color1_0: 357429507
+      Low_Tilemap_color1_1: 800917343
+      Low_Tilemap_color1_10: 791709103
+      Low_Tilemap_color1_11: 1470016266
+      Low_Tilemap_color1_12: -914562767
+      Low_Tilemap_color1_13: 771889114
+      Low_Tilemap_color1_14: -1786119941
+      Low_Tilemap_color1_15: 397237453
+      Low_Tilemap_color1_16: -956329927
+      Low_Tilemap_color1_17: -1378332991
+      Low_Tilemap_color1_18: 844479749
+      Low_Tilemap_color1_19: 19921650
+      Low_Tilemap_color1_2: 189787072
+      Low_Tilemap_color1_20: 1250444650
+      Low_Tilemap_color1_21: 918673698
+      Low_Tilemap_color1_22: -636377560
+      Low_Tilemap_color1_23: -904574392
+      Low_Tilemap_color1_24: 901190826
+      Low_Tilemap_color1_25: 1145293570
+      Low_Tilemap_color1_26: 1132418119
+      Low_Tilemap_color1_27: 12813789
+      Low_Tilemap_color1_28: 1112878300
+      Low_Tilemap_color1_29: -1715876047
+      Low_Tilemap_color1_3: 102336126
+      Low_Tilemap_color1_30: -1371490166
+      Low_Tilemap_color1_31: -1467723121
+      Low_Tilemap_color1_32: 1912680676
+      Low_Tilemap_color1_33: 965309719
+      Low_Tilemap_color1_34: -917638513
+      Low_Tilemap_color1_35: -706944166
+      Low_Tilemap_color1_36: 292095279
+      Low_Tilemap_color1_37: 727101364
+      Low_Tilemap_color1_38: -1785481113
+      Low_Tilemap_color1_39: -1986594917
+      Low_Tilemap_color1_4: -299875687
+      Low_Tilemap_color1_40: 2021853058
+      Low_Tilemap_color1_41: 1061391827
+      Low_Tilemap_color1_42: -813265500
+      Low_Tilemap_color1_43: 1613333011
+      Low_Tilemap_color1_44: 1307228447
+      Low_Tilemap_color1_45: -1217421234
+      Low_Tilemap_color1_46: -1792498376
+      Low_Tilemap_color1_47: -1616336349
+      Low_Tilemap_color1_48: -1952930012
+      Low_Tilemap_color1_49: 944980577
+      Low_Tilemap_color1_5: -988692753
+      Low_Tilemap_color1_50: -1126454608
+      Low_Tilemap_color1_51: 1067155862
+      Low_Tilemap_color1_52: 1201759660
+      Low_Tilemap_color1_53: -1361225258
+      Low_Tilemap_color1_54: 464840763
+      Low_Tilemap_color1_55: 1202016397
+      Low_Tilemap_color1_56: 422605008
+      Low_Tilemap_color1_57: -1025832280
+      Low_Tilemap_color1_58: 2123043191
+      Low_Tilemap_color1_59: -369957694
+      Low_Tilemap_color1_6: 1912539588
+      Low_Tilemap_color1_60: 298271066
+      Low_Tilemap_color1_61: 390495839
+      Low_Tilemap_color1_62: 958266315
+      Low_Tilemap_color1_63: -2070836246
+      Low_Tilemap_color1_64: 116271910
+      Low_Tilemap_color1_65: 2106005086
+      Low_Tilemap_color1_66: -1992437428
+      Low_Tilemap_color1_67: 1346373118
+      Low_Tilemap_color1_68: 1502689874
+      Low_Tilemap_color1_69: -1758202165
+      Low_Tilemap_color1_7: -1696768830
+      Low_Tilemap_color1_70: 1729895336
+      Low_Tilemap_color1_71: 1424720677
+      Low_Tilemap_color1_72: -1679106673
+      Low_Tilemap_color1_73: -598076715
+      Low_Tilemap_color1_74: -1124665516
+      Low_Tilemap_color1_75: -1069744351
+      Low_Tilemap_color1_76: 924214594
+      Low_Tilemap_color1_77: 1910184795
+      Low_Tilemap_color1_78: -1056288484
+      Low_Tilemap_color1_79: 691329045
+      Low_Tilemap_color1_8: 1120633106
+      Low_Tilemap_color1_80: -1548965987
+      Low_Tilemap_color1_81: -2063926693
+      Low_Tilemap_color1_82: 1462537627
+      Low_Tilemap_color1_83: 1191372658
+      Low_Tilemap_color1_84: -276088710
+      Low_Tilemap_color1_85: 1416120113
+      Low_Tilemap_color1_86: -1602697045
+      Low_Tilemap_color1_87: 428076045
+      Low_Tilemap_color1_88: -579967877
+      Low_Tilemap_color1_89: 1049098080
+      Low_Tilemap_color1_9: 1998347435
+      Low_Tilemap_color1_90: -1724381890
+      Low_Tilemap_color1_91: -1299603025
+      Low_Tilemap_color1_92: -340365472
+      Low_Tilemap_color1_93: -1781339101
+      Low_Tilemap_color1_94: -396307285
+      Low_Tilemap_color1_95: 1129120569
+      Low_Tilemap_color1_96: 1952724068
+      Low_Tilemap_color1_97: 1005493042
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1112 @@
+fileFormatVersion: 2
+guid: 0709fb1771da32943ad1eb602f338abf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8777388641641696378
+    second: Torch_Purple_0
+  - first:
+      213: 7289106625145917395
+    second: Torch_Purple_1
+  - first:
+      213: 6563495107105060230
+    second: Torch_Purple_2
+  - first:
+      213: -2718780732279233981
+    second: Torch_Purple_3
+  - first:
+      213: -3563705805885922832
+    second: Torch_Purple_4
+  - first:
+      213: 8757872799773580616
+    second: Torch_Purple_5
+  - first:
+      213: 6806364753432413300
+    second: Torch_Purple_6
+  - first:
+      213: -8676763838232251490
+    second: Torch_Purple_7
+  - first:
+      213: 6587575489424863480
+    second: Torch_Purple_8
+  - first:
+      213: -4649307110469801079
+    second: Torch_Purple_9
+  - first:
+      213: -5350870462702088880
+    second: Torch_Purple_10
+  - first:
+      213: -743100397886644504
+    second: Torch_Purple_11
+  - first:
+      213: 6366584411652875701
+    second: Torch_Purple_12
+  - first:
+      213: 6650235719180979789
+    second: Torch_Purple_13
+  - first:
+      213: -2292804030775991083
+    second: Torch_Purple_14
+  - first:
+      213: 8444722779903732438
+    second: Torch_Purple_15
+  - first:
+      213: 5308740645727054198
+    second: Torch_Purple_16
+  - first:
+      213: -8175694481049523811
+    second: Torch_Purple_17
+  - first:
+      213: -5552232036246018689
+    second: Torch_Purple_18
+  - first:
+      213: -7214844403715748582
+    second: Torch_Purple_19
+  - first:
+      213: 4338798451457133823
+    second: Torch_Purple_20
+  - first:
+      213: 157586050839780054
+    second: Torch_Purple_21
+  - first:
+      213: 3963220145696015614
+    second: Torch_Purple_22
+  - first:
+      213: -7369646498216302835
+    second: Torch_Purple_23
+  - first:
+      213: -308179443233466684
+    second: Torch_Purple_24
+  - first:
+      213: -8912942771199552999
+    second: Torch_Purple_25
+  - first:
+      213: 829214079118854761
+    second: Torch_Purple_26
+  - first:
+      213: 6587287232380290893
+    second: Torch_Purple_27
+  - first:
+      213: -3613194450452872922
+    second: Torch_Purple_28
+  - first:
+      213: 4254220321314900722
+    second: Torch_Purple_29
+  - first:
+      213: -3636304627072001104
+    second: Torch_Purple_30
+  - first:
+      213: 2526182072521003030
+    second: Torch_Purple_31
+  - first:
+      213: -534309051310876368
+    second: Torch_Purple_32
+  - first:
+      213: -1031857605635688553
+    second: Torch_Purple_33
+  - first:
+      213: -4039123883211088733
+    second: Torch_Purple_34
+  - first:
+      213: -204375668282837498
+    second: Torch_Purple_35
+  - first:
+      213: -806418910718427689
+    second: Torch_Purple_36
+  - first:
+      213: 6971597377520573325
+    second: Torch_Purple_37
+  - first:
+      213: -5806124124225188590
+    second: Torch_Purple_38
+  - first:
+      213: -6786669139989514500
+    second: Torch_Purple_39
+  - first:
+      213: 9139717770830630858
+    second: Torch_Purple_40
+  - first:
+      213: 6472037063354771283
+    second: Torch_Purple_41
+  - first:
+      213: -5201262000825232503
+    second: Torch_Purple_42
+  - first:
+      213: -8884292802392011540
+    second: Torch_Purple_43
+  - first:
+      213: -5376117467778600094
+    second: Torch_Purple_44
+  - first:
+      213: 5630286481573221149
+    second: Torch_Purple_45
+  - first:
+      213: 8373742750572626711
+    second: Torch_Purple_46
+  - first:
+      213: 4524142071194896893
+    second: Torch_Purple_47
+  - first:
+      213: 7231459763197342479
+    second: Torch_Purple_48
+  - first:
+      213: -1882189263611289453
+    second: Torch_Purple_49
+  - first:
+      213: 8937611363904212237
+    second: Torch_Purple_50
+  - first:
+      213: -4167974887603447450
+    second: Torch_Purple_51
+  - first:
+      213: 4147723058122188050
+    second: Torch_Purple_52
+  - first:
+      213: 4539507612114334818
+    second: Torch_Purple_53
+  - first:
+      213: 3769643294560197153
+    second: Torch_Purple_54
+  - first:
+      213: 904309756318845567
+    second: Torch_Purple_55
+  - first:
+      213: -3179630900763951533
+    second: Torch_Purple_56
+  - first:
+      213: 8122145324355914720
+    second: Torch_Purple_57
+  - first:
+      213: 5771819029894492542
+    second: Torch_Purple_58
+  - first:
+      213: 2966182216872429557
+    second: Torch_Purple_59
+  - first:
+      213: -3159153860480877542
+    second: Torch_Purple_60
+  - first:
+      213: 7800583797527961178
+    second: Torch_Purple_61
+  - first:
+      213: -5569173360199599610
+    second: Torch_Purple_62
+  - first:
+      213: -5690465260101204808
+    second: Torch_Purple_63
+  - first:
+      213: 1073706693892016841
+    second: Torch_Purple_64
+  - first:
+      213: -4964974728139563750
+    second: Torch_Purple_65
+  - first:
+      213: -3785200113508070910
+    second: Torch_Purple_66
+  - first:
+      213: -697494652585742524
+    second: Torch_Purple_67
+  - first:
+      213: -5442006533641337661
+    second: Torch_Purple_68
+  - first:
+      213: -1025322795725769496
+    second: Torch_Purple_69
+  - first:
+      213: -3255691038874216582
+    second: Torch_Purple_70
+  - first:
+      213: 3955675992198382607
+    second: Torch_Purple_71
+  - first:
+      213: -3196865167981344529
+    second: Torch_Purple_72
+  - first:
+      213: 2529677035573766443
+    second: Torch_Purple_73
+  - first:
+      213: -5139444600743104429
+    second: Torch_Purple_74
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Torch_Purple_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 826
+        width: 76
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c0a98077c8fc970800000000000000
+      internalID: 8777388641641696378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 826
+        width: 77
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfc4c13bdb182560800000000000000
+      internalID: 7289106625145917395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 826
+        width: 76
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685f2086608361b50800000000000000
+      internalID: 6563495107105060230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_4
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 826
+        width: 74
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f12c2c637c2b8ec0800000000000000
+      internalID: -3563705805885922832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_7
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 826
+        width: 73
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e933636b241f59780800000000000000
+      internalID: -8676763838232251490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_9
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 826
+        width: 72
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98befbce0d75a7fb0800000000000000
+      internalID: -4649307110469801079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_10
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 826
+        width: 73
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d038f0aa3edb5b0800000000000000
+      internalID: -5350870462702088880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_14
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 634
+        width: 101
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4630eb1e25e20e0800000000000000
+      internalID: -2292804030775991083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_16
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 634
+        width: 107
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6792d398d7f6ca940800000000000000
+      internalID: 5308740645727054198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_18
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 634
+        width: 113
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f752309416282f2b0800000000000000
+      internalID: -5552232036246018689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_20
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 634
+        width: 102
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc0e132432863c30800000000000000
+      internalID: 4338798451457133823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_22
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 634
+        width: 106
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef402e679bf200730800000000000000
+      internalID: 3963220145696015614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_23
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 442
+        width: 88
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07ad915e81c9b990800000000000000
+      internalID: -7369646498216302835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_24
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 442
+        width: 92
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6ddfedd6029bbf0800000000000000
+      internalID: -308179443233466684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_28
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 442
+        width: 82
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62108547aca5bddc0800000000000000
+      internalID: -3613194450452872922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_31
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 441
+        width: 139
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610139ee53dce0320800000000000000
+      internalID: 2526182072521003030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_38
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 440
+        width: 137
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d4bb50fd08c6fa0800000000000000
+      internalID: -5806124124225188590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_39
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 442
+        width: 124
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6b1dedf58e0d1a0800000000000000
+      internalID: -6786669139989514500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 215
+        width: 81
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec4dd864c6a4b480800000000000000
+      internalID: -8884292802392011540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_44
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 215
+        width: 88
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263b84e95a13465b0800000000000000
+      internalID: -5376117467778600094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_45
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 215
+        width: 91
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d131bd579bbc22e40800000000000000
+      internalID: 5630286481573221149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_50
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 215
+        width: 118
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d41069e26c80c70800000000000000
+      internalID: 8937611363904212237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_52
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 215
+        width: 120
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215e112552caf8930800000000000000
+      internalID: 4147723058122188050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_53
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 213
+        width: 103
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264b1433f129ffe30800000000000000
+      internalID: 4539507612114334818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_61
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 47
+        width: 141
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e525472ad314c60800000000000000
+      internalID: 7800583797527961178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_62
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 50
+        width: 140
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60afbbce55256b2b0800000000000000
+      internalID: -5569173360199599610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_66
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 58
+        width: 93
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a45963d84487bc0800000000000000
+      internalID: -3785200113508070910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_67
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 43
+        width: 96
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f64e71f400256f0800000000000000
+      internalID: -697494652585742524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_68
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 40
+        width: 93
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c404f004eb1a74b0800000000000000
+      internalID: -5442006533641337661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_70
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 58
+        width: 118
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77da71ef3671d2d0800000000000000
+      internalID: -3255691038874216582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Purple_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 634
+        width: 119
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24495beed1bc9b8489a3ffc737536450
+      internalID: -2718780732279233981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ffa167824774a0842b430bd94989c18b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Torch_Purple_0: 8777388641641696378
+      Torch_Purple_1: 7289106625145917395
+      Torch_Purple_10: -5350870462702088880
+      Torch_Purple_11: -743100397886644504
+      Torch_Purple_12: 6366584411652875701
+      Torch_Purple_13: 6650235719180979789
+      Torch_Purple_14: -2292804030775991083
+      Torch_Purple_15: 8444722779903732438
+      Torch_Purple_16: 5308740645727054198
+      Torch_Purple_17: -8175694481049523811
+      Torch_Purple_18: -5552232036246018689
+      Torch_Purple_19: -7214844403715748582
+      Torch_Purple_2: 6563495107105060230
+      Torch_Purple_20: 4338798451457133823
+      Torch_Purple_21: 157586050839780054
+      Torch_Purple_22: 3963220145696015614
+      Torch_Purple_23: -7369646498216302835
+      Torch_Purple_24: -308179443233466684
+      Torch_Purple_25: -8912942771199552999
+      Torch_Purple_26: 829214079118854761
+      Torch_Purple_27: 6587287232380290893
+      Torch_Purple_28: -3613194450452872922
+      Torch_Purple_29: 4254220321314900722
+      Torch_Purple_3: -2718780732279233981
+      Torch_Purple_30: -3636304627072001104
+      Torch_Purple_31: 2526182072521003030
+      Torch_Purple_32: -534309051310876368
+      Torch_Purple_33: -1031857605635688553
+      Torch_Purple_34: -4039123883211088733
+      Torch_Purple_35: -204375668282837498
+      Torch_Purple_36: -806418910718427689
+      Torch_Purple_37: 6971597377520573325
+      Torch_Purple_38: -5806124124225188590
+      Torch_Purple_39: -6786669139989514500
+      Torch_Purple_4: -3563705805885922832
+      Torch_Purple_40: 9139717770830630858
+      Torch_Purple_41: 6472037063354771283
+      Torch_Purple_42: -5201262000825232503
+      Torch_Purple_43: -8884292802392011540
+      Torch_Purple_44: -5376117467778600094
+      Torch_Purple_45: 5630286481573221149
+      Torch_Purple_46: 8373742750572626711
+      Torch_Purple_47: 4524142071194896893
+      Torch_Purple_48: 7231459763197342479
+      Torch_Purple_49: -1882189263611289453
+      Torch_Purple_5: 8757872799773580616
+      Torch_Purple_50: 8937611363904212237
+      Torch_Purple_51: -4167974887603447450
+      Torch_Purple_52: 4147723058122188050
+      Torch_Purple_53: 4539507612114334818
+      Torch_Purple_54: 3769643294560197153
+      Torch_Purple_55: 904309756318845567
+      Torch_Purple_56: -3179630900763951533
+      Torch_Purple_57: 8122145324355914720
+      Torch_Purple_58: 5771819029894492542
+      Torch_Purple_59: 2966182216872429557
+      Torch_Purple_6: 6806364753432413300
+      Torch_Purple_60: -3159153860480877542
+      Torch_Purple_61: 7800583797527961178
+      Torch_Purple_62: -5569173360199599610
+      Torch_Purple_63: -5690465260101204808
+      Torch_Purple_64: 1073706693892016841
+      Torch_Purple_65: -4964974728139563750
+      Torch_Purple_66: -3785200113508070910
+      Torch_Purple_67: -697494652585742524
+      Torch_Purple_68: -5442006533641337661
+      Torch_Purple_69: -1025322795725769496
+      Torch_Purple_7: -8676763838232251490
+      Torch_Purple_70: -3255691038874216582
+      Torch_Purple_71: 3955675992198382607
+      Torch_Purple_72: -3196865167981344529
+      Torch_Purple_73: 2529677035573766443
+      Torch_Purple_74: -5139444600743104429
+      Torch_Purple_8: 6587575489424863480
+      Torch_Purple_9: -4649307110469801079
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

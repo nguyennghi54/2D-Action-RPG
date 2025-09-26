@@ -1,0 +1,1689 @@
+fileFormatVersion: 2
+guid: 49a0da844df54d8458e2177f4bf98754
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4684625920699962428
+    second: Tilemap_color1_0
+  - first:
+      213: -2801873246907429078
+    second: Tilemap_color1_1
+  - first:
+      213: 7801342956118196415
+    second: Tilemap_color1_2
+  - first:
+      213: 2381845703017299674
+    second: Tilemap_color1_3
+  - first:
+      213: 5980407047448068244
+    second: Tilemap_color1_4
+  - first:
+      213: 7614361197189378962
+    second: Tilemap_color1_5
+  - first:
+      213: -4455189763106589383
+    second: Tilemap_color1_6
+  - first:
+      213: 2514084195207275289
+    second: Tilemap_color1_7
+  - first:
+      213: 6012010895760242090
+    second: Tilemap_color1_8
+  - first:
+      213: 3062889884838147064
+    second: Tilemap_color1_9
+  - first:
+      213: 1418375321201274708
+    second: Tilemap_color1_10
+  - first:
+      213: -8992189254483969355
+    second: Tilemap_color1_11
+  - first:
+      213: -3293826169491285364
+    second: Tilemap_color1_12
+  - first:
+      213: 2468736761819628169
+    second: Tilemap_color1_13
+  - first:
+      213: 249127335269095975
+    second: Tilemap_color1_14
+  - first:
+      213: 120966392478926727
+    second: Tilemap_color1_15
+  - first:
+      213: 1311339825560053648
+    second: Tilemap_color1_16
+  - first:
+      213: 7518868150231657459
+    second: Tilemap_color1_17
+  - first:
+      213: 2944866425670003460
+    second: Tilemap_color1_18
+  - first:
+      213: -2804451518926523279
+    second: Tilemap_color1_19
+  - first:
+      213: -4336045200530116284
+    second: Tilemap_color1_20
+  - first:
+      213: -5663187401509772035
+    second: Tilemap_color1_21
+  - first:
+      213: -7962071013999737797
+    second: Tilemap_color1_22
+  - first:
+      213: 7272332894472844370
+    second: Tilemap_color1_23
+  - first:
+      213: -7473837398066495716
+    second: Tilemap_color1_24
+  - first:
+      213: 2205626041221952261
+    second: Tilemap_color1_25
+  - first:
+      213: 8761957845823429309
+    second: Tilemap_color1_26
+  - first:
+      213: -7602718512742726791
+    second: Tilemap_color1_27
+  - first:
+      213: 4299903223893273855
+    second: Tilemap_color1_28
+  - first:
+      213: -156968979077948116
+    second: Tilemap_color1_29
+  - first:
+      213: -6005370149783978446
+    second: Tilemap_color1_30
+  - first:
+      213: -3887639646538638151
+    second: Tilemap_color1_31
+  - first:
+      213: -7676271994124391679
+    second: Tilemap_color1_32
+  - first:
+      213: -567363726576857262
+    second: Tilemap_color1_33
+  - first:
+      213: -5170102666605548192
+    second: Tilemap_color1_34
+  - first:
+      213: -6914060815751580637
+    second: Tilemap_color1_35
+  - first:
+      213: -2818783850665287378
+    second: Tilemap_color1_36
+  - first:
+      213: 4877094068914342608
+    second: Tilemap_color1_37
+  - first:
+      213: -5460246916487401979
+    second: Tilemap_color1_38
+  - first:
+      213: 8040887467247185324
+    second: Tilemap_color1_39
+  - first:
+      213: 6659697122546123297
+    second: Tilemap_color1_40
+  - first:
+      213: -5328810533467712069
+    second: Tilemap_color1_41
+  - first:
+      213: 3858118010278745957
+    second: Tilemap_color1_42
+  - first:
+      213: -3793614902417640485
+    second: Tilemap_color1_43
+  - first:
+      213: -918892767159726313
+    second: Tilemap_color1_44
+  - first:
+      213: 3368758497067531475
+    second: Tilemap_color1_45
+  - first:
+      213: 5809642575974107265
+    second: Tilemap_color1_46
+  - first:
+      213: -2717959069546875479
+    second: Tilemap_color1_47
+  - first:
+      213: -2730756614561629265
+    second: Tilemap_color1_48
+  - first:
+      213: -1600266700000864503
+    second: Tilemap_color1_49
+  - first:
+      213: -6162260638384905595
+    second: Tilemap_color1_50
+  - first:
+      213: -7989441365163098092
+    second: Tilemap_color1_51
+  - first:
+      213: -4156132361999277927
+    second: Tilemap_color1_52
+  - first:
+      213: 6678773690062355152
+    second: Tilemap_color1_53
+  - first:
+      213: -5833622645773596244
+    second: Tilemap_color1_54
+  - first:
+      213: 46385456578341019
+    second: Tilemap_color1_55
+  - first:
+      213: -5490583000368920266
+    second: Tilemap_color1_56
+  - first:
+      213: 6025417231891396771
+    second: Tilemap_color1_57
+  - first:
+      213: -389833285977466161
+    second: Tilemap_color1_58
+  - first:
+      213: -6876386774670606448
+    second: Tilemap_color1_59
+  - first:
+      213: 2213162740780828126
+    second: Tilemap_color1_60
+  - first:
+      213: -2121317567515395388
+    second: Tilemap_color1_61
+  - first:
+      213: 7278956865320723726
+    second: Tilemap_color1_62
+  - first:
+      213: 2442936209934616833
+    second: Tilemap_color1_63
+  - first:
+      213: 8525603795300512417
+    second: Tilemap_color1_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tilemap_color1_40
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1228d059f3ffb6c50800000000000000
+      internalID: 6659697122546123297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_41
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb51c459d034c06b0800000000000000
+      internalID: -5328810533467712069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: -27}
+        - {x: -14, y: -23}
+        - {x: -30, y: -3}
+        - {x: -30, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: -4}
+        - {x: -15, y: -26}
+        - {x: 32, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1880cec542fff9050800000000000000
+      internalID: 5809642575974107265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: -25}
+        - {x: -32, y: -27}
+        - {x: -32, y: -30}
+        - {x: 32, y: -28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a57b9960aed74ad0800000000000000
+      internalID: -2717959069546875479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_48
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: 32}
+        - {x: 30, y: 32}
+        - {x: 26, y: -10}
+        - {x: -2, y: -26}
+        - {x: -32, y: -29}
+        - {x: -32, y: -32}
+        - {x: -2, y: -29}
+        - {x: 29, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab7105c3576a1ad0800000000000000
+      internalID: -2730756614561629265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -27, y: 12}
+        - {x: -12, y: 27}
+        - {x: 32, y: 28}
+        - {x: 32, y: 30}
+        - {x: -13, y: 29}
+        - {x: -29, y: 13}
+        - {x: -32, y: -32}
+        - {x: -30, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45aefa0893ef3341b8efd2c3c74f1d5
+      internalID: 2944866425670003460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_19
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: 30}
+        - {x: -32, y: 30}
+        - {x: -32, y: 28}
+        - {x: 32, y: 28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39ba5eeea99db143a2c08e01e6206cc
+      internalID: -2804451518926523279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 28, y: 15}
+        - {x: 14, y: 29}
+        - {x: -32, y: 31}
+        - {x: -32, y: 29}
+        - {x: 13, y: 27}
+        - {x: 26, y: 14}
+        - {x: 28, y: -32}
+        - {x: 30, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825cc16399cafb048bb72dfae544ac13
+      internalID: -4336045200530116284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_21
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a74659a07916044285d547ae6041015
+      internalID: -5663187401509772035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -27, y: 12}
+        - {x: -12, y: 27}
+        - {x: 32, y: 28}
+        - {x: 32, y: 30}
+        - {x: -13, y: 29}
+        - {x: -29, y: 13}
+        - {x: -32, y: -32}
+        - {x: -30, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fbe0264aba45a419c2816b257a61d4
+      internalID: -7962071013999737797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: 30}
+        - {x: -32, y: 30}
+        - {x: -32, y: 28}
+        - {x: 32, y: 28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468f7a3b5235ef445894dbff73890df4
+      internalID: 7272332894472844370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_24
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 28, y: 15}
+        - {x: 14, y: 29}
+        - {x: -32, y: 31}
+        - {x: -32, y: 29}
+        - {x: 13, y: 27}
+        - {x: 26, y: 14}
+        - {x: 28, y: -32}
+        - {x: 30, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2115b5e25ccbcc74a83b333d5c900ce1
+      internalID: -7473837398066495716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_25
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ace48bdcecad04fa4aaa7c2c59654e
+      internalID: 2205626041221952261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81fbbf518dfb0c449fcdfb63130ce83
+      internalID: 8761957845823429309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_27
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9003f0512158946b204707982b15ca
+      internalID: -7602718512742726791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -30, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: -30, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7702a33ef6aab45a35444bf69e8a3b
+      internalID: -7676271994124391679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_33
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154475b4ca1a7d04bb9fb5b7978d7b85
+      internalID: -567363726576857262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 31, y: 32}
+        - {x: 28, y: 32}
+        - {x: 28, y: -32}
+        - {x: 31, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbed0b9c516992a4b908fc61fa4a4d5a
+      internalID: -5170102666605548192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_35
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0552b3545ab2e43498609bc4afedf29d
+      internalID: -6914060815751580637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_36
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -30, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: -30, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bbef9b83f232d4daf18af493bc1be2
+      internalID: -2818783850665287378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_37
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dd360affbb0ea4db96f0b2b287c8a8
+      internalID: 4877094068914342608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_38
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 31, y: 32}
+        - {x: 28, y: 32}
+        - {x: 28, y: -32}
+        - {x: 31, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfcf96b6e08aa6468e1044a1bf8ece1
+      internalID: -5460246916487401979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54670c660907006479d95399d5ad3193
+      internalID: 8040887467247185324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_49
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f2bba75bd1cc14ebe81109a2967a5b
+      internalID: -1600266700000864503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_50
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: -27}
+        - {x: -14, y: -23}
+        - {x: -30, y: -3}
+        - {x: -30, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: -4}
+        - {x: -15, y: -26}
+        - {x: 32, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24275099eba122e488497995860a887c
+      internalID: -6162260638384905595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18338893406b6df44aa7959462df04e6
+      internalID: -7989441365163098092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_52
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: 32}
+        - {x: 30, y: 32}
+        - {x: 26, y: -10}
+        - {x: -2, y: -26}
+        - {x: -32, y: -29}
+        - {x: -32, y: -32}
+        - {x: -2, y: -29}
+        - {x: 29, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d94866d6cca6074ba614695271690aa
+      internalID: -4156132361999277927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_53
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be4b029fdd9365498f321aea34f3484
+      internalID: 6678773690062355152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: 32}
+        - {x: -31, y: 32}
+        - {x: -27, y: -1}
+        - {x: -17, y: -19}
+        - {x: 32, y: -23}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8832bee63b2613f4589506d6c697caf2
+      internalID: -389833285977466161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: -22}
+        - {x: 32, y: -21}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07808d646c0ac8547b6ab4f5b1be3007
+      internalID: -6876386774670606448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 24, y: -8}
+        - {x: 31, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: -21}
+        - {x: 16, y: -19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae984720ff03cd4dafd9a9d3bcfa863
+      internalID: 2213162740780828126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_61
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3197fb2d6b0da4d9b204d3f3faf3e0
+      internalID: -2121317567515395388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_62
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: 32}
+        - {x: -31, y: 32}
+        - {x: -28, y: 5}
+        - {x: -20, y: -14}
+        - {x: 32, y: -18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f45b34032a08d48879fd3d7583cafb
+      internalID: 7278956865320723726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_63
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 32, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: -17}
+        - {x: 32, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad085347e6984474f94a886b04631f24
+      internalID: 2442936209934616833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_64
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 24, y: -8}
+        - {x: 31, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: -16}
+        - {x: 17, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a6c630cd0b32f4d8c9aa5939220ba2
+      internalID: 8525603795300512417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_65
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0eb476ec097fbb46b441ffaecc1027b
+      internalID: -130979585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d3207b89b6c7e469a7a77b6fa4c995
+      internalID: 865117402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_71
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5829c73355e2846b149596ff80aa47
+      internalID: 1861363069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_72
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abd8d7a065228d449312f466b3db531
+      internalID: -373838054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_73
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2969a337533ae4eab1339de185e737
+      internalID: -1634097817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_74
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86983170cd045904ba61b1aaf3c1fbfd
+      internalID: -622131748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_75
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfac784871e128498e6029b7d2e180a
+      internalID: -824811157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_76
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2b866ccbcefac4d80483167a8e752d
+      internalID: -723558354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_77
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade47185b754bfe40bb520f9e37e8db3
+      internalID: 965675935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_82
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3abe5c7d87e08c43bfc356f9780d379
+      internalID: -1135952280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_83
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35d3d4495d1c3f48be6162b72b65ae5
+      internalID: -1598646209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_84
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c78d7ff0d90f5949a99700b7ee7443e
+      internalID: 11160898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_85
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cec2a1f81f6634eb38edeb266da0bc
+      internalID: -1357107700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_86
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f887973b3186843862b0b21b83401b
+      internalID: -917568768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_87
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a4f5be492e6fa4c8113d91648dc456
+      internalID: 1523687056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_88
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417e12d91c6d81f40891d4573c4f7870
+      internalID: -1261326002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_color1_89
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9352ba69174df8f45a8d739ce5a61f52
+      internalID: -1503837197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b8ece67f9fd692348b7dc193617b8c5e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Tilemap_color1_0: 4684625920699962428
+      Tilemap_color1_1: -2801873246907429078
+      Tilemap_color1_10: 1418375321201274708
+      Tilemap_color1_11: -8992189254483969355
+      Tilemap_color1_12: -3293826169491285364
+      Tilemap_color1_13: 2468736761819628169
+      Tilemap_color1_14: 249127335269095975
+      Tilemap_color1_15: 120966392478926727
+      Tilemap_color1_16: 1311339825560053648
+      Tilemap_color1_17: 7518868150231657459
+      Tilemap_color1_18: 2944866425670003460
+      Tilemap_color1_19: -2804451518926523279
+      Tilemap_color1_2: 7801342956118196415
+      Tilemap_color1_20: -4336045200530116284
+      Tilemap_color1_21: -5663187401509772035
+      Tilemap_color1_22: -7962071013999737797
+      Tilemap_color1_23: 7272332894472844370
+      Tilemap_color1_24: -7473837398066495716
+      Tilemap_color1_25: 2205626041221952261
+      Tilemap_color1_26: 8761957845823429309
+      Tilemap_color1_27: -7602718512742726791
+      Tilemap_color1_28: 4299903223893273855
+      Tilemap_color1_29: -156968979077948116
+      Tilemap_color1_3: 2381845703017299674
+      Tilemap_color1_30: -6005370149783978446
+      Tilemap_color1_31: -3887639646538638151
+      Tilemap_color1_32: -7676271994124391679
+      Tilemap_color1_33: -567363726576857262
+      Tilemap_color1_34: -5170102666605548192
+      Tilemap_color1_35: -6914060815751580637
+      Tilemap_color1_36: -2818783850665287378
+      Tilemap_color1_37: 4877094068914342608
+      Tilemap_color1_38: -5460246916487401979
+      Tilemap_color1_39: 8040887467247185324
+      Tilemap_color1_4: 5980407047448068244
+      Tilemap_color1_40: 6659697122546123297
+      Tilemap_color1_41: -5328810533467712069
+      Tilemap_color1_42: 3858118010278745957
+      Tilemap_color1_43: -3793614902417640485
+      Tilemap_color1_44: -918892767159726313
+      Tilemap_color1_45: 3368758497067531475
+      Tilemap_color1_46: 5809642575974107265
+      Tilemap_color1_47: -2717959069546875479
+      Tilemap_color1_48: -2730756614561629265
+      Tilemap_color1_49: -1600266700000864503
+      Tilemap_color1_5: 7614361197189378962
+      Tilemap_color1_50: -6162260638384905595
+      Tilemap_color1_51: -7989441365163098092
+      Tilemap_color1_52: -4156132361999277927
+      Tilemap_color1_53: 6678773690062355152
+      Tilemap_color1_54: -5833622645773596244
+      Tilemap_color1_55: 46385456578341019
+      Tilemap_color1_56: -5490583000368920266
+      Tilemap_color1_57: 6025417231891396771
+      Tilemap_color1_58: -389833285977466161
+      Tilemap_color1_59: -6876386774670606448
+      Tilemap_color1_6: -4455189763106589383
+      Tilemap_color1_60: 2213162740780828126
+      Tilemap_color1_61: -2121317567515395388
+      Tilemap_color1_62: 7278956865320723726
+      Tilemap_color1_63: 2442936209934616833
+      Tilemap_color1_64: 8525603795300512417
+      Tilemap_color1_65: -130979585
+      Tilemap_color1_66: 344495821
+      Tilemap_color1_67: -1354496502
+      Tilemap_color1_68: 2139204940
+      Tilemap_color1_69: 1127265510
+      Tilemap_color1_7: 2514084195207275289
+      Tilemap_color1_70: 865117402
+      Tilemap_color1_71: 1861363069
+      Tilemap_color1_72: -373838054
+      Tilemap_color1_73: -1634097817
+      Tilemap_color1_74: -622131748
+      Tilemap_color1_75: -824811157
+      Tilemap_color1_76: -723558354
+      Tilemap_color1_77: 965675935
+      Tilemap_color1_78: 989269225
+      Tilemap_color1_79: -1011866683
+      Tilemap_color1_8: 6012010895760242090
+      Tilemap_color1_80: -1207392134
+      Tilemap_color1_81: 892944698
+      Tilemap_color1_82: -1135952280
+      Tilemap_color1_83: -1598646209
+      Tilemap_color1_84: 11160898
+      Tilemap_color1_85: -1357107700
+      Tilemap_color1_86: -917568768
+      Tilemap_color1_87: 1523687056
+      Tilemap_color1_88: -1261326002
+      Tilemap_color1_89: -1503837197
+      Tilemap_color1_9: 3062889884838147064
+      Tilemap_color1_90: -14987853
+      Tilemap_color1_91: 1994754235
+      Tilemap_color1_92: -1670236611
+      Tilemap_color1_93: 174549485
+      Tilemap_color1_94: -1516571935
+      Tilemap_color1_95: -2061196590
+      Tilemap_color1_96: 1838883299
+      Tilemap_color1_97: 1788738050
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
