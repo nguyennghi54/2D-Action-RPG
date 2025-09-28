@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using _GAME_.Scripts.Player;
 using UnityEngine;
 
@@ -5,9 +6,11 @@ public class Player_Combat : MonoBehaviour
 {
     private Animator anim;
     private PlayerPrefab player;
-    private int attackDamage;
+    private float attackDamage;
     private float attackCD;
     private float attackCDtimer;
+    private Dictionary<UnitStat, float> statDict;
+    
     [Header("EnemyDetect")]
     [SerializeField] private GameObject attackPoint;
     [SerializeField] private LayerMask enemyLayer;
@@ -21,17 +24,18 @@ public class Player_Combat : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         player = GetComponent<PlayerPrefab>();
+        statDict = player.statDict;
         Init();
     }
 
     void Init()
     {
-        attackDamage = player.attack;
-        attackCD = player.attackCD;
-        weaponRange = player.weaponRange;
-        knockForce = player.knockForce;
-        knockTime = player.knockTime;
-        stunTime = player.stunTime;
+        attackDamage = statDict.GetValueOrDefault(UnitStat.Attack);
+        attackCD = statDict.GetValueOrDefault(UnitStat.AttackCD);
+        weaponRange = statDict.GetValueOrDefault(UnitStat.WeaponRange);
+        knockForce = statDict.GetValueOrDefault(UnitStat.KnockForce);
+        knockTime = statDict.GetValueOrDefault(UnitStat.KnockTime);
+        stunTime = statDict.GetValueOrDefault(UnitStat.StunTime);
     }
     void Update()
     {

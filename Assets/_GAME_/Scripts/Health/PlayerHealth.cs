@@ -1,18 +1,20 @@
+using System.Collections.Generic;
 using _GAME_.Scripts.Player;
 using TMPro;
 using UnityEngine;
 
     public class PlayerHealth : MonoBehaviour
     {
-        private int currentHealth;
-        private int maxHealth;
+        private float currentHealth, maxHealth;
         [SerializeField] private TextMeshProUGUI healthText;
         private Animator healthTextAnim;
         private PlayerPrefab player;
+        private Dictionary<UnitStat, float> statDict;
         void Start()
         {
             player = GetComponent<PlayerPrefab>();
-            maxHealth = (int) player.maxHP;
+            statDict = player.statDict;
+            maxHealth = statDict.GetValueOrDefault(UnitStat.MaxHP);
             currentHealth = maxHealth;
             healthTextAnim = healthText.gameObject.GetComponent<Animator>();
             healthText.text = $"HP:{currentHealth}/{maxHealth}";
