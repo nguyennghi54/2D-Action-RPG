@@ -14,5 +14,4 @@ public class TestStat : ScriptableObject
 {
     [SerializedDictionary("Stat", "Value")]
     public SerializedDictionary<Stat, float> statDict;
-    
 }

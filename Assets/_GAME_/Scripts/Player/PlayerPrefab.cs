@@ -9,12 +9,13 @@ namespace _GAME_.Scripts.Player
         public float maxHP, moveSpeed, attackCD, weaponRange, knockForce, knockTime, stunTime;
         [HideInInspector]
         public int attack;
-
-        [SerializeField] private SerializedDictionary<Stat, float> stat;
+        [SerializeField] private TestStat testStat;
+        private SerializedDictionary<Stat, float> statDict;
         [SerializeField] private UnitStats unitStats;
         private void OnEnable()
         {
-            maxHP = unitStats.MaxHP;
+            statDict = testStat.statDict;
+            maxHP = statDict.TryGetValue(Stat.MaxHP, out float value) ? value : 0f;
             moveSpeed = unitStats.Speed;
             attack = unitStats.Attack;
             attackCD = unitStats.AttackCD;
