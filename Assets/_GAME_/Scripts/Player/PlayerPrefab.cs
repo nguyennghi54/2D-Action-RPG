@@ -1,3 +1,4 @@
+using AYellowpaper.SerializedCollections;
 using UnityEngine;
 
 namespace _GAME_.Scripts.Player
@@ -8,7 +9,8 @@ namespace _GAME_.Scripts.Player
         public float maxHP, moveSpeed, attackCD, weaponRange, knockForce, knockTime, stunTime;
         [HideInInspector]
         public int attack;
-        
+
+        [SerializeField] private SerializedDictionary<Stat, float> stat;
         [SerializeField] private UnitStats unitStats;
         private void OnEnable()
         {
