@@ -9,6 +9,7 @@ namespace _GAME_.Scripts.Player
         private float maxHP, moveSpeed, attack, attackCD, weaponRange, knockForce, knockTime, stunTime;
         public Dictionary<UnitStat, float> statDict;
         [SerializeField] private UnitStats unitStats;
+        [HideInInspector] public int level;
         private void OnEnable()
         {
             statDict = unitStats.statDict;
