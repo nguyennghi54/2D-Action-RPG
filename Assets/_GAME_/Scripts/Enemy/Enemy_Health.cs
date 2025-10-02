@@ -39,7 +39,7 @@ public class Enemy_Health : MonoBehaviour
     IEnumerator HurtAnimation()
     {
         enemySprite.color = Color.crimson;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.2f);
         enemySprite.color =  Color.white;
     }
 }

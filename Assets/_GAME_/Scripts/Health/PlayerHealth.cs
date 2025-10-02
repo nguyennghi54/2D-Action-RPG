@@ -41,7 +41,7 @@ using UnityEngine;
         IEnumerator HurtAnimation()
         {
             playerSprite.color = Color.crimson;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.2f);
             playerSprite.color =  Color.white;
         }
     }
