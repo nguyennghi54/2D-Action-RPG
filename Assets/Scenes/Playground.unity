@@ -11590,15 +11590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3efddc17e1cb5de44aa7119ae9519e62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 0
-  moveSpeed: 0
-  attackCD: 0
-  weaponRange: 0
-  knockForce: 0
-  knockTime: 0
-  stunTime: 0
-  attack: 0
-  unitStats: {fileID: 11400000, guid: 0dd95ac473410a54a89bead223e534b1, type: 2}
+  unitStats: {fileID: 11400000, guid: f40f985b60e278946b8848bb582322b0, type: 2}
 --- !u!1 &1233427504
 GameObject:
   m_ObjectHideFlags: 0
@@ -12326,59 +12318,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 17539370}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1518150196
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1518150198}
-  - component: {fileID: 1518150197}
-  m_Layer: 0
-  m_Name: TestDict
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1518150197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518150196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b75ae3fe61e9254f8a29eb4ca623dfd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  newDict:
-    thisDictItems:
-    - MaxHp: 0
-      Speed: 0
-      Attack: 0
-  thisDictItems:
-  - MaxHp: 0
-    Speed: 0
-    Attack: 0
---- !u!4 &1518150198
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518150196}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.95262, y: 7.61797, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1609311638
 GameObject:
@@ -35637,4 +35576,3 @@ SceneRoots:
   - {fileID: 2119797654}
   - {fileID: 745284044}
   - {fileID: 1506503920}
-  - {fileID: 1518150198}

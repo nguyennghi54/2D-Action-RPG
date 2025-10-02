@@ -19,6 +19,7 @@ namespace _GAME_.Scripts.Player
             knockForce = statDict.GetValueOrDefault(UnitStat.KnockForce);
             knockTime = statDict.GetValueOrDefault(UnitStat.KnockTime);
             stunTime = statDict.GetValueOrDefault(UnitStat.StunTime);
+            maxHP = statDict.TryGetValue(UnitStat.MaxHP, out var value) ? value : maxHP;
         }
     }
 }

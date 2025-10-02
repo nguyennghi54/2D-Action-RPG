@@ -13,4 +13,20 @@ MonoBehaviour:
   m_Name: Warrior_Blue
   m_EditorClassIdentifier: 
   statDict:
-    _serializedList: []
+    _serializedList:
+    - Key: 0
+      Value: 20
+    - Key: 1
+      Value: 8
+    - Key: 2
+      Value: 1
+    - Key: 3
+      Value: 0.2
+    - Key: 4
+      Value: 1
+    - Key: 5
+      Value: 20
+    - Key: 6
+      Value: 0.15
+    - Key: 7
+      Value: 0.5
