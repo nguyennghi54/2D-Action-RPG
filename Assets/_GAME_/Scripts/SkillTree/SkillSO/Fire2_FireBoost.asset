@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa630f20c66e5a4db583c0332713404, type: 3}
+  m_Name: Fire2_FireBoost
+  m_EditorClassIdentifier: 
+  skillName: Fire Boost
+  maxLevel: 10
+  skillIcon: {fileID: 6734237056663082788, guid: 65d68398cd66d0944adb7c5a387c12f1, type: 3}

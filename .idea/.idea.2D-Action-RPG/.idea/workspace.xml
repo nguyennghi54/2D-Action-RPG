@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7830564-18af-46dc-816c-673bc983e5ae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Enemy/Enemy_Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Enemy/Enemy_Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Health/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Health/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Action-RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Action-RPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/Bangers-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/Bangers-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/BigMokaV2 SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/BigMokaV2 SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/Ranchers-Outline.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/Ranchers-Outline.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/fatfinger outline.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/fatfinger outline.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/yoster SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/yoster SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +43,10 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4780199c95764436ade50bbd58f6348846ae00/a6/93177f2d/CollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/Skill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillTreeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GAME_/Scripts/Stats/Warrior_Blue.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@57cef44123c7/Runtime/TMP/TMP_MaterialManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -49,7 +62,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "skilltree__implement",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,13 +96,15 @@
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9444">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="9444" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list />
+        <list>
+          <MonoRuntime />
+        </list>
       </option>
       <option name="selectedOptions">
         <list />
