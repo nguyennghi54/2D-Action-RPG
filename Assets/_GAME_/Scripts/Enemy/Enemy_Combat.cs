@@ -10,6 +10,7 @@ public class Enemy_Combat : MonoBehaviour
     [Header("KnockBack")]
     [SerializeField] private float knockbackForce;
     [SerializeField] private float stunTime;
+    
     public void Attack()
     {
         // If Player still in weaponRange after entered  => attack

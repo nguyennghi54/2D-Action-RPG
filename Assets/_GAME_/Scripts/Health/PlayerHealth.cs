@@ -1,18 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
 using _GAME_.Scripts.Player;
 using TMPro;
 using UnityEngine;
 
     public class PlayerHealth : MonoBehaviour
     {
-        private int currentHealth;
-        private int maxHealth;
+        private float currentHealth, maxHealth;
         [SerializeField] private TextMeshProUGUI healthText;
         private Animator healthTextAnim;
         private PlayerPrefab player;
+        private Dictionary<UnitStat, float> statDict;
+        private SpriteRenderer playerSprite;
         void Start()
         {
             player = GetComponent<PlayerPrefab>();
-            maxHealth = (int) player.maxHP;
+            playerSprite = GetComponent<SpriteRenderer>();
+            statDict = player.statDict;
+            maxHealth = statDict.GetValueOrDefault(UnitStat.MaxHP);
             currentHealth = maxHealth;
             healthTextAnim = healthText.gameObject.GetComponent<Animator>();
             healthText.text = $"HP:{currentHealth}/{maxHealth}";
@@ -24,6 +29,7 @@ using UnityEngine;
         }*/
         public void ChangeHealth(int change)
         {
+            StartCoroutine(HurtAnimation());
             currentHealth += change;
             healthText.text = $"HP:{currentHealth}/{maxHealth}";
             healthTextAnim.Play("TextUpdate");
@@ -31,6 +37,12 @@ using UnityEngine;
             {
                 gameObject.SetActive(false);
             }
+        }
+        IEnumerator HurtAnimation()
+        {
+            playerSprite.color = Color.crimson;
+            yield return new WaitForSeconds(0.1f);
+            playerSprite.color =  Color.white;
         }
     }
 

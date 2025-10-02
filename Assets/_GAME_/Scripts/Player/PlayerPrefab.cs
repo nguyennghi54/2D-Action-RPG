@@ -1,25 +1,26 @@
+using System.Collections.Generic;
+using AYellowpaper.SerializedCollections;
 using UnityEngine;
 
 namespace _GAME_.Scripts.Player
 {
     public class PlayerPrefab : MonoBehaviour
     {
-        [HideInInspector]
-        public float maxHP, moveSpeed, attackCD, weaponRange, knockForce, knockTime, stunTime;
-        [HideInInspector]
-        public int attack;
-        
+        private float maxHP, moveSpeed, attack, attackCD, weaponRange, knockForce, knockTime, stunTime;
+        public Dictionary<UnitStat, float> statDict;
         [SerializeField] private UnitStats unitStats;
+        [HideInInspector] public int level;
         private void OnEnable()
         {
-            maxHP = unitStats.MaxHP;
-            moveSpeed = unitStats.Speed;
-            attack = unitStats.Attack;
-            attackCD = unitStats.AttackCD;
-            weaponRange = unitStats.WeaponRange;
-            knockForce = unitStats.KnockForce;
-            knockTime = unitStats.KnockTime;
-            stunTime = unitStats.StunTime;
+            statDict = unitStats.statDict;
+            maxHP = statDict.GetValueOrDefault(UnitStat.MaxHP);
+            attack = statDict.GetValueOrDefault(UnitStat.Attack);
+            attackCD = statDict.GetValueOrDefault(UnitStat.AttackCD);
+            weaponRange = statDict.GetValueOrDefault(UnitStat.WeaponRange);
+            knockForce = statDict.GetValueOrDefault(UnitStat.KnockForce);
+            knockTime = statDict.GetValueOrDefault(UnitStat.KnockTime);
+            stunTime = statDict.GetValueOrDefault(UnitStat.StunTime);
+            maxHP = statDict.TryGetValue(UnitStat.MaxHP, out var value) ? value : maxHP;
         }
     }
 }

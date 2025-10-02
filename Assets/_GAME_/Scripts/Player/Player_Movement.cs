@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using _GAME_.Scripts.Player;
 using UnityEngine;
 
@@ -15,9 +16,12 @@ using UnityEngine;
     private bool isKnockBacked;
 
     private PlayerPrefab player;
+    private Dictionary<UnitStat, float> statDict;
     void Start()
     {
         player = GetComponent<PlayerPrefab>();
+        statDict = player.statDict;
+        moveSpeed = statDict.GetValueOrDefault(UnitStat.MoveSpeed);
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -40,7 +44,7 @@ using UnityEngine;
             if (horizontalInput > 0 && transform.localScale.x < 0
                 || horizontalInput < 0 && transform.localScale.x > 0)
                 Flip();
-            rb.linearVelocity = new Vector2(horizontalInput, verticalInput).normalized * player.moveSpeed;
+            rb.linearVelocity = new Vector2(horizontalInput, verticalInput).normalized * moveSpeed;
         }
     }
     
