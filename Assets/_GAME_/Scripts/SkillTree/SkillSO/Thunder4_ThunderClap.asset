@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa630f20c66e5a4db583c0332713404, type: 3}
   m_Name: Thunder4_ThunderClap
   m_EditorClassIdentifier: 
-  skillName: 
-  maxLevel: 0
-  skillIcon: {fileID: 0}
+  skillName: Thunder Clap
+  maxLevel: 20
+  skillIcon: {fileID: 456767350700619442, guid: 6162fecba64b3904fb68e6436e1b34a5, type: 3}

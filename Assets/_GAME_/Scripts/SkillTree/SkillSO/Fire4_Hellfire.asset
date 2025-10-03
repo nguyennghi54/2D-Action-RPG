@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa630f20c66e5a4db583c0332713404, type: 3}
   m_Name: Fire4_Hellfire
   m_EditorClassIdentifier: 
-  skillName: Flame Pillar
-  maxLevel: 15
+  skillName: Hellfire
+  maxLevel: 20
   skillIcon: {fileID: 6734237056663082788, guid: 65d68398cd66d0944adb7c5a387c12f1, type: 3}

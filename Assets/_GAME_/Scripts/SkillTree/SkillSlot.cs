@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class SkillSlot : MonoBehaviour
 {
-    [SerializeField] private Skill skill;
+    [SerializeField] public Skill skill;
     [SerializeField] public bool isUnlocked;
     [SerializeField] private TMP_Text skillText;
     [SerializeField] private Image skillIcon;

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using AYellowpaper.SerializedCollections;
+using TMPro;
 using UnityEngine;
 
 namespace _GAME_.Scripts.Player
@@ -9,7 +10,8 @@ namespace _GAME_.Scripts.Player
         private float maxHP, moveSpeed, attack, attackCD, weaponRange, knockForce, knockTime, stunTime;
         public Dictionary<UnitStat, float> statDict;
         [SerializeField] private UnitStats unitStats;
-        [HideInInspector] public int level;
+        [SerializeField] private PlayerHealth playerHealth;
+        [HideInInspector] public float level;
         private void OnEnable()
         {
             statDict = unitStats.statDict;
@@ -21,6 +23,13 @@ namespace _GAME_.Scripts.Player
             knockTime = statDict.GetValueOrDefault(UnitStat.KnockTime);
             stunTime = statDict.GetValueOrDefault(UnitStat.StunTime);
             maxHP = statDict.TryGetValue(UnitStat.MaxHP, out var value) ? value : maxHP;
+        }
+
+        public void UpdateMaxHP(int amount)
+        {
+            maxHP += amount;
+            unitStats.statDict[UnitStat.MaxHP] = maxHP;
+            playerHealth.UpdateHealthUI();
         }
     }
 }

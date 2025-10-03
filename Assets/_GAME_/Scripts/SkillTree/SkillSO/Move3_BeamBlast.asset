@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1aa630f20c66e5a4db583c0332713404, type: 3}
-  m_Name: Thunder2_ThunderBoost
+  m_Name: Move3_BeamBlast
   m_EditorClassIdentifier: 
-  skillName: Thunder Boost
-  maxLevel: 10
-  skillIcon: {fileID: 456767350700619442, guid: 6162fecba64b3904fb68e6436e1b34a5, type: 3}
+  skillName: Beam Blast
+  maxLevel: 1
+  skillIcon: {fileID: 6920829028273540874, guid: 826b6a6b3cfed1a4dbbb0dcc99976941, type: 3}

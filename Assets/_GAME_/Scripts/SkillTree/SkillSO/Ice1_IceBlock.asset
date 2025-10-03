@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa630f20c66e5a4db583c0332713404, type: 3}
   m_Name: Ice1_IceBlock
   m_EditorClassIdentifier: 
-  skillName: 
-  maxLevel: 0
-  skillIcon: {fileID: 0}
+  skillName: Ice Block
+  maxLevel: 5
+  skillIcon: {fileID: -4632131584819206428, guid: 190eef8659d0062478f650e16e72cd63, type: 3}

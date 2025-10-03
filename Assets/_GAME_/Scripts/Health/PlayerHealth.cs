@@ -23,10 +23,12 @@ using UnityEngine;
             healthText.text = $"HP:{currentHealth}/{maxHealth}";
         }
 
-        /*void Update()
+        public void UpdateHealthUI()
         {
+            maxHealth = statDict.GetValueOrDefault(UnitStat.MaxHP);
             healthText.text = $"HP:{currentHealth}/{maxHealth}";
-        }*/
+        }
+        
         public void ChangeHealth(int change)
         {
             StartCoroutine(HurtAnimation());

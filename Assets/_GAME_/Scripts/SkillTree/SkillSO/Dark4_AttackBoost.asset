@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1aa630f20c66e5a4db583c0332713404, type: 3}
-  m_Name: Thunder2_ThunderBoost
+  m_Name: Dark4_AttackBoost
   m_EditorClassIdentifier: 
-  skillName: Thunder Boost
-  maxLevel: 10
-  skillIcon: {fileID: 456767350700619442, guid: 6162fecba64b3904fb68e6436e1b34a5, type: 3}
+  skillName: Attack Boost
+  maxLevel: 20
+  skillIcon: {fileID: 737231511072755166, guid: 514119e807830d84889bec5c713c11f1, type: 3}

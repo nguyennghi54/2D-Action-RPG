@@ -3,7 +3,7 @@ using _GAME_.Scripts.Player;
 using TMPro;
 using UnityEngine;
 
-public class Unit : MonoBehaviour
+public class StatsUI : MonoBehaviour
 {
     [SerializeField] private GameObject[] statSlotList;
     [SerializeField] private PlayerPrefab player;

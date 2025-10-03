@@ -1,3 +1,4 @@
+using System;
 using _GAME_.Scripts.Player;
 using TMPro;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class ExpManager : MonoBehaviour
     [Header("UI")]
     [SerializeField] private Slider expSlider;
     [SerializeField] private TMP_Text expText;
+    public static event Action<int> OnLevelUp;
     public void Start()
     {
         expToNextLevel = 10;
@@ -54,6 +56,7 @@ public class ExpManager : MonoBehaviour
         player.level++;
         currentExp -= expToNextLevel;
         expToNextLevel = Mathf.RoundToInt(expToNextLevel * expGrowthMultiplier);
+        OnLevelUp?.Invoke(1);   // give 1 point every level up
     }
 
     public void UpdateUI()
