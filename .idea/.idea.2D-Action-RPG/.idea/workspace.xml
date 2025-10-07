@@ -5,29 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7830564-18af-46dc-816c-673bc983e5ae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Action-RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Action-RPG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Health/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Health/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Player/ExpManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Player/ExpManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Player/PlayerPrefab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Player/PlayerPrefab.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Fire4_Hellfire.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Fire4_Hellfire.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Health1_MaxHPBoost.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Health1_MaxHPBoost.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Health2_Regen.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Health2_Regen.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Health3_MaxHPBoost.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Health3_MaxHPBoost.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Health4_MaxHPBoost.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Health4_MaxHPBoost.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Ice1_IceBlock.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Ice1_IceBlock.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Ice2_IceBoost.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Ice2_IceBoost.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Ice3_IceBlast.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Ice3_IceBlast.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Ice4_IceBlade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Ice4_IceBlade.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Thunder1_Shock.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Thunder1_Shock.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Thunder2_ThunderBoost.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Thunder2_ThunderBoost.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Thunder3_ThunderBolt.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Thunder3_ThunderBolt.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Thunder4_ThunderClap.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSO/Thunder4_ThunderClap.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillSlot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillTreeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillTreeManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Stats/StatsUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Stats/StatsUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Stats/Warrior_Blue.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Stats/Warrior_Blue.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Characters/Archer_Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Characters/Archer_Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Characters/Archer_Run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Characters/Archer_Run.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Characters/Archer_Shoot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Characters/Archer_Shoot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +58,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "skilltree__implement",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
