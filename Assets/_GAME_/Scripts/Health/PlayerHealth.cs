@@ -31,8 +31,11 @@ using UnityEngine;
         
         public void ChangeHealth(int change)
         {
-            StartCoroutine(HurtAnimation());
+            if(Mathf.Sign(change) == -1)
+                StartCoroutine(HurtAnimation());
             currentHealth += change;
+            if(currentHealth > maxHealth)
+                currentHealth = maxHealth;
             healthText.text = $"HP:{currentHealth}/{maxHealth}";
             healthTextAnim.Play("TextUpdate");
             if (currentHealth <= 0)
