@@ -11,10 +11,8 @@ public class ItemSO : ScriptableObject
     public Sprite itemIcon;
     
     [SerializeField] public bool isGold;
-
-    [Header("Temporary items")] 
-    public float duration;
-
+    public int stackSize; 
+    
     [Header("Stat effect")]
     [SerializedDictionary] public SerializedDictionary<UnitStat, float> statEffectDict;
     [SerializeField] public float heal;

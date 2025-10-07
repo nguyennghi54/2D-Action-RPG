@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Mushroom
   m_EditorClassIdentifier: 
   itemName: Mushroom
-  description: Red mushroom in games means good.
+  description: Red mushroom in games means good. Increase +2 MOVE SPD.
   itemIcon: {fileID: -5225540622116197949, guid: 56d5f823e293fae4996476243dfcc5dc, type: 3}
   isGold: 0
-  duration: 5
-  statEffect:
+  stackSize: 5
+  statEffectDict:
     _serializedList:
     - Key: 0
       Value: 0
     - Key: 1
-      Value: 0
+      Value: 2
     - Key: 2
       Value: 0
     - Key: 3

@@ -26,12 +26,14 @@ public class StatsUI : MonoBehaviour
             {
                 Time.timeScale = 1;
                 statUI.alpha = 0;
+                statUI.blocksRaycasts = false;
                 statOpen = false;
             }
             else
             {
                 Time.timeScale = 0; // pause game
                 statUI.alpha = 1;
+                statUI.blocksRaycasts = true;
                 statOpen = true;
             }
         }

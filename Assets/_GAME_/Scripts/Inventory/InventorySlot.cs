@@ -20,16 +20,20 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
 
     /// <summary>
     /// When click on slot, 
-    /// If left click, use item 
+    /// If left click, use item. Right click, drop item
     /// </summary>
     /// <param name="eventData"></param>
     public void OnPointerClick(PointerEventData eventData)
     {
         if (quantity > 0)
         {
-            if (eventData.button == PointerEventData.InputButton.Left)
+            if (eventData.button == PointerEventData.InputButton.Left)  // use item
             {
                 manager.UseItem(this);
+            }
+            else if (eventData.button == PointerEventData.InputButton.Right)    // drop item
+            { 
+                manager.DropItem(this);
             }
         }
     }

@@ -8,7 +8,7 @@ public class InventoryManager : MonoBehaviour
     public int gold;
     [SerializeField] private UseItem useItem;
     [SerializeField] private TextMeshProUGUI goldText;
-    private GameObject[] playerUnits;
+    [SerializeField] private GameObject lootPrefab;
     private PlayerPrefab player;
     void OnEnable()
     {
@@ -42,8 +42,8 @@ public class InventoryManager : MonoBehaviour
         }
     }
     /// <summary>
-    /// If item looted is gold, add to gold amount 
-    /// Else add to empty slot
+    /// If item looted is gold, add to gold amount. 
+    /// Else add to slots
     /// </summary>
     /// <param name="item"></param>
     /// <param name="quantity"></param>
@@ -56,18 +56,58 @@ public class InventoryManager : MonoBehaviour
             goldText.text = $"{gold}";
             return;
         }
-        if(!item.isGold)
+        // Check if stack slot haves room
+        // If exceed -> add the minimum to slot's quantity
+        foreach (var slot in itemSlots)
         {
-            foreach (var slot in itemSlots)
+            if (slot.item == item && slot.quantity < item.stackSize)
             {
-                if (slot.item == null)
-                {
-                    slot.item = item;
-                    slot.quantity = quantity;
-                    slot.UpdateSlotUI();
+                int availSpace = item.stackSize - slot.quantity;
+                int amountToAdd = Mathf.Min(availSpace, quantity);
+                slot.quantity += amountToAdd;
+                quantity -= amountToAdd;    // subtract added instances of item
+                
+                slot.UpdateSlotUI();
+                if (quantity <= 0)  // item ran out
                     return;
-                }
             }
         }
+        // If item remains & slot reaches stackSize -> check empty slot
+        foreach (var slot in itemSlots)
+        {
+            if (slot.item == null)
+            {
+                int amountToAdd = Mathf.Min(item.stackSize, quantity);
+                slot.item = item;
+                slot.quantity = amountToAdd;
+                quantity -= amountToAdd;
+                slot.UpdateSlotUI();
+            }
+            if (quantity <= 0)
+                return;
+        }
+        // If Out of slot but item still remains -> Drop item
+        if (quantity > 0)
+        {
+            DropLoot(item, quantity);
+        }
+        
+    }
+
+    private void DropLoot(ItemSO item, int quantity)
+    {
+        Loot loot = Instantiate(lootPrefab, player.gameObject.transform.position, Quaternion.identity).GetComponent<Loot>();
+        loot.InitLoot(item, quantity);
+    }
+
+    public void DropItem(InventorySlot slot)
+    {
+        DropLoot(slot.item, 1);
+        slot.quantity --;
+        if (slot.quantity <= 0)
+        {
+            slot.item = null;
+        }
+        slot.UpdateSlotUI(); 
     }
 }
