@@ -90,7 +90,9 @@ public class InventoryManager : MonoBehaviour
         // If Out of slot but item still remains -> Drop item
         if (quantity > 0)
         {
-            DropLoot(item, quantity);
+            if (Shopkeeper.currentShopkeeper == null)   // if not current in shop
+                DropLoot(item, quantity);
+            else return;
         }
         
     }

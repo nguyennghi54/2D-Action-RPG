@@ -43,6 +43,7 @@ public class Player_Combat : MonoBehaviour
         {
             attackCDtimer -= Time.deltaTime;
         }
+        Init();
     }
     public void Attack()
     {

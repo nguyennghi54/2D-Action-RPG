@@ -1,16 +1,19 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using System.Collections.Generic;
+using System.ComponentModel;
 
 public class ShopInfo : MonoBehaviour
 {
     public CanvasGroup infoPanel;
     public TextMeshProUGUI itemNameText;
     public TextMeshProUGUI itemDescText;
-
+    [SerializeField] private Vector3 offset;
+    
     [Header("Stats field")] public TMP_Text[] statTexts;
     private RectTransform infoPanelRect;
-
+    
     void Awake()
     {
         infoPanelRect = infoPanel.GetComponent<RectTransform>();
@@ -28,7 +31,7 @@ public class ShopInfo : MonoBehaviour
         foreach (KeyValuePair<UnitStat, float> stat in item.statEffectDict)
         {
             if (stat.Value > 0)
-                statList.Add($"+{stat.Value} {stat.Key}");
+                statList.Add($"+{stat.Value} {stat.Key.GetEnumDesc()}");
         }
         if (statList.Count <= 0)
             return;
@@ -56,7 +59,6 @@ public class ShopInfo : MonoBehaviour
     public void FollowMouseHover()
     {
         Vector3 mousePos = Input.mousePosition;
-        Vector3 offset = new Vector3(5, -10, 0);
         infoPanelRect.position = mousePos + offset;
     }
 }

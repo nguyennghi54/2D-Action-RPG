@@ -8,10 +8,8 @@ using UnityEngine;
 /// </summary>
 public class ShopManager : MonoBehaviour
 {
-    public static event Action<ShopManager, bool> OnShopStateChanged;
     private static ShopManager activeShop;
     
-    [SerializeField] private List<ShopItems> shopItems;
     [SerializeField] private ShopSlot[] shopSlots;
     [SerializeField] private InventoryManager invManager;
     [SerializeField] private PlayerPrefab player;
@@ -22,13 +20,7 @@ public class ShopManager : MonoBehaviour
         public int price;
         
     }
-    void Start()
-    {
-        PopulateShopSlots();
-        OnShopStateChanged?.Invoke(this, true);
-    }
-    
-    void PopulateShopSlots()
+    public void PopulateShopSlots(List<ShopItems> shopItems)
     {
         for (int i = 0; i < shopItems.Count && i < shopSlots.Length; i++)
         {

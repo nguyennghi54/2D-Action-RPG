@@ -19,11 +19,11 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
     }
     void OnEnable()
     {
-        ShopManager.OnShopStateChanged += HandleShopStateChanged;
+        Shopkeeper.OnShopStateChanged += HandleShopStateChanged;
     }
     void OnDisale()
     {
-        ShopManager.OnShopStateChanged -= HandleShopStateChanged;
+        Shopkeeper.OnShopStateChanged -= HandleShopStateChanged;
     }
     
     /// <summary>

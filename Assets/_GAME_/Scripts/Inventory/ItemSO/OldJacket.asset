@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fd742fee386dbb418fa8fdf4f77e6f3, type: 3}
-  m_Name: Mushroom
+  m_Name: OldJacket
   m_EditorClassIdentifier: 
-  itemName: Mushroom
-  description: Red mushroom in games means good.
-  itemIcon: {fileID: -5225540622116197949, guid: 56d5f823e293fae4996476243dfcc5dc, type: 3}
+  itemName: Old Jacket
+  description: A bit tattered.
+  itemIcon: {fileID: 2960402581040015946, guid: e3f743ea1f2923242b8d1ce94b44ea28, type: 3}
   isGold: 0
-  stackSize: 5
+  stackSize: 1
   statEffectDict:
     _serializedList:
     - Key: 0
       Value: 0
     - Key: 1
-      Value: 1
+      Value: -1
     - Key: 2
-      Value: 0
+      Value: 1
     - Key: 3
       Value: 0
     - Key: 4
       Value: 0
     - Key: 5
-      Value: 0
+      Value: 1
     - Key: 6
       Value: 0
     - Key: 7
-      Value: 0
+      Value: 1
   heal: 0

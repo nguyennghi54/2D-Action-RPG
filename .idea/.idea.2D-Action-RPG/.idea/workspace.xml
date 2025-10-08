@@ -7,10 +7,20 @@
     <list default="true" id="f7830564-18af-46dc-816c-673bc983e5ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Action-RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Action-RPG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Item/02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Item/02.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/Prefabs/ShopSlot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Asset/Prefabs/ShopSlot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Item/G_Idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Item/G_Idle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/UI/Button_Blue_9Slides.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/UI/Button_Blue_9Slides.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/InventoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/InventoryManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/InventorySlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/InventorySlot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Bone.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Bone.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Meat.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Meat.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Mushroom.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Mushroom.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Pumpkin.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Pumpkin.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/Shop/ShopInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/Shop/ShopInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/Shop/ShopManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/Shop/ShopManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/Shop/ShopSlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/Shop/ShopSlot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Stats/UnitStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Stats/UnitStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ShopSlot : MonoBehaviour, IPointerEnterHandler
+public class ShopSlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerMoveHandler
 {
     public ItemSO item;
     public TextMeshProUGUI itemNameText;

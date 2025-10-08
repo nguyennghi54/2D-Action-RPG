@@ -10,27 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fd742fee386dbb418fa8fdf4f77e6f3, type: 3}
-  m_Name: Mushroom
+  m_Name: Lumber
   m_EditorClassIdentifier: 
-  itemName: Mushroom
-  description: Red mushroom in games means good.
-  itemIcon: {fileID: -5225540622116197949, guid: 56d5f823e293fae4996476243dfcc5dc, type: 3}
+  itemName: Lumber
+  description: I guess you can throw them.
+  itemIcon: {fileID: 2993571543192110368, guid: e239906dc198f7d48a5b7497e24f8ebe, type: 3}
   isGold: 0
-  stackSize: 5
+  stackSize: 1
   statEffectDict:
     _serializedList:
     - Key: 0
       Value: 0
     - Key: 1
-      Value: 1
-    - Key: 2
       Value: 0
+    - Key: 2
+      Value: 2
     - Key: 3
       Value: 0
     - Key: 4
-      Value: 0
+      Value: 1
     - Key: 5
-      Value: 0
+      Value: 1
     - Key: 6
       Value: 0
     - Key: 7

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bone
   m_EditorClassIdentifier: 
   itemName: Bone
-  description: A morbid kind of currency. Increase +2 ATK.
+  description: A morbid kind of currency.
   itemIcon: {fileID: -6270953770400647376, guid: b36d105d5ca593a4ea811bd567f1813a, type: 3}
   isGold: 0
   stackSize: 3
@@ -22,9 +22,9 @@ MonoBehaviour:
     - Key: 0
       Value: 0
     - Key: 1
-      Value: 0
+      Value: 1
     - Key: 2
-      Value: 2
+      Value: 1
     - Key: 3
       Value: 0
     - Key: 4
@@ -35,4 +35,4 @@ MonoBehaviour:
       Value: 0
     - Key: 7
       Value: 0
-  heal: 0
+  heal: 1

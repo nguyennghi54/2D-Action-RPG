@@ -54,6 +54,9 @@ TagManager:
   - name: Foreground_Elevaito
     uniqueID: 1235410167
     locked: 0
+  - name: Button
+    uniqueID: 2264831567
+    locked: 0
   - name: Item
     uniqueID: 1743534399
     locked: 0
