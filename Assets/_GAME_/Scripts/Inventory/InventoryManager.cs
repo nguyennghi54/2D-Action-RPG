@@ -7,7 +7,7 @@ public class InventoryManager : MonoBehaviour
     public InventorySlot[] itemSlots;
     public int gold;
     [SerializeField] private UseItem useItem;
-    [SerializeField] private TextMeshProUGUI goldText;
+    public TextMeshProUGUI goldText;
     [SerializeField] private GameObject lootPrefab;
     private PlayerPrefab player;
     void OnEnable()
@@ -22,6 +22,7 @@ public class InventoryManager : MonoBehaviour
 
     void Start()
     {
+        goldText.text = $"{gold}";
         foreach (var slot in itemSlots)
         {
             slot.UpdateSlotUI();

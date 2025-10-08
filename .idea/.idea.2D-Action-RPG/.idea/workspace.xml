@@ -6,24 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f7830564-18af-46dc-816c-673bc983e5ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Action-RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Action-RPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Item/02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Item/02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/Prefabs/ShopSlot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Asset/Prefabs/ShopSlot.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/InventoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/InventoryManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/InventorySlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/InventorySlot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Bone.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Bone.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Meat.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Meat.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Mushroom.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Mushroom.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Pumpkin.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/ItemSO/Pumpkin.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/Loot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/Loot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/UseItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/UseItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Stats/StatsUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Stats/StatsUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Stats/Warrior_Blue.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Stats/Warrior_Blue.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Fonts/Bangers-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Fonts/Bangers-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/ChelseaMarket-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/ChelseaMarket-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/Ranchers-Outline.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/Ranchers-Outline.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/Ranchers-Regular SDF Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/Ranchers-Regular SDF Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/yoster SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/System/TextMesh Pro/Resources/Fonts &amp; Materials/yoster SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +38,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4780199c95764436ade50bbd58f6348846ae00/a6/93177f2d/CollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/69b3d6d52aae4582b50cf8910df7f0439e5200/d1/548d048f/GameObjectInspector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/Shop/ShopInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/Shop/ShopSlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/Skill.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GAME_/Scripts/SkillTree/SkillTreeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GAME_/Scripts/Stats/Warrior_Blue.asset" root0="FORCE_HIGHLIGHTING" />
@@ -65,21 +54,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Attach to Unity Editor.Attach to Unity Editor & Play.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "item-implement",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor &amp; Play.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;item-implement&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity\Unity Editor\6000.1.12f1\Editor\Unity.exe" />
@@ -105,10 +94,10 @@
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="33088">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="34152">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="33088" />
+      <option name="pid" value="34152" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
         <list>
@@ -150,7 +139,7 @@
       <workItem from="1759047263935" duration="7447000" />
       <workItem from="1759199892431" duration="6458000" />
       <workItem from="1759374956289" duration="4556000" />
-      <workItem from="1759806645013" duration="31257000" />
+      <workItem from="1759806645013" duration="41078000" />
     </task>
     <servers />
   </component>
