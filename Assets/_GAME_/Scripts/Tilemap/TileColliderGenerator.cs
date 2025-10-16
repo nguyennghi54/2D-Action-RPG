@@ -20,6 +20,7 @@ public class TileColliderGenerator : MonoBehaviour
     private HashSet<Vector3Int> visitedTiles = new HashSet<Vector3Int>();
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         var firstPos = stairMap.cellBounds.min;
         foreach (Vector3Int pos in stairMap.cellBounds.allPositionsWithin)  // traverse all cells (unordered!)
         {

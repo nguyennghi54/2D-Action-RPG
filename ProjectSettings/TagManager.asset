@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Stair
+  - Confiner
   layers:
   - Default
   - TransparentFX
