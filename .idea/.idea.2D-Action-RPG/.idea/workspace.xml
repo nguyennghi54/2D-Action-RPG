@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7830564-18af-46dc-816c-673bc983e5ae" name="Changes" comment="" />
+    <list default="true" id="f7830564-18af-46dc-816c-673bc983e5ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Action-RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Action-RPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Animation/Npc/Npc_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Animation/Npc/Npc_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Animation/Npc/Npc_Walk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Animation/Npc/Npc_Walk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/NPC/NPC_Patrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/NPC/NPC_Patrol.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,12 +60,13 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "npc__implement",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CodeLensConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
