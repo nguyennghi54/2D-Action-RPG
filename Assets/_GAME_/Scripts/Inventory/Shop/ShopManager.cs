@@ -63,10 +63,11 @@ public class ShopManager : MonoBehaviour
                 return true;
             }
             // Check for empty slot
-            else if (invSlot.item != item)
+            else if (invSlot.item != item && invSlot.item == null)
             {
                 return true;
             }
+
         }
         // No room left
         return false;
