@@ -90,7 +90,7 @@ public class NPC_Wander : MonoBehaviour
     void Move()
     {
         Vector2 dir = (target - (Vector2) transform.position).normalized;
-        rb.velocity = dir * speed;
+        rb.linearVelocity = dir * speed;
         //Flip
         if (dir.x < 0 && transform.localScale.x > 0 || dir.x > 0 && transform.localScale.x < 0)
         {

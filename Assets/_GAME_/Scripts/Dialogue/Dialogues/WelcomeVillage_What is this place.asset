@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5677e683cbf16704aab1068ef2555c72, type: 3}
+  m_Name: WelcomeVillage_What is this place
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  dialogLines:
+  - speaker: {fileID: 11400000, guid: cb74a88cc3199a843a43b5fb1400a5fa, type: 2}
+    text: A village with two houses and a tree.
+  - speaker: {fileID: 11400000, guid: 70ae77a20595c0a4db47d4141d5c82d3, type: 2}
+    text: Very interesting.
+  dialogOptions: []
