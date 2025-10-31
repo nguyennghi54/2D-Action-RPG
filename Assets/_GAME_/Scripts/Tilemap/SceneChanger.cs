@@ -21,7 +21,7 @@ public class SceneChanger : MonoBehaviour
         IEnumerator WaitToFade()
         {
             yield return new WaitForSeconds(delayTime);
-            SceneManager.LoadScene(sceneToLoad);
+            SceneManager.LoadSceneAsync(sceneToLoad);
         }
     }
 }

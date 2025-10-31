@@ -7,25 +7,10 @@
     <list default="true" id="f7830564-18af-46dc-816c-673bc983e5ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D-Action-RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D-Action-RPG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShopRenderTexture.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ShopRenderTexture.renderTexture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Animation/Npc/NPC.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Animation/Npc/NPC.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Animation/Npc/NPC_Run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Animation/Npc/NPC_Run.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Animation/Npc/Npc_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Animation/Npc/Npc_Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Item/G_Idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/Item/G_Idle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/UI/Banner_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Asset/PNG/UI/Banner_Horizontal.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Asset/Prefabs/Persistent/UIManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Asset/Prefabs/Persistent/UIManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/Shop/Shopkeeper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Inventory/Shop/Shopkeeper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/NPC/NPC_Wander.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/NPC/NPC_Wander.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Projectile.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Projectile/Arrow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Projectile/Arrow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Tilemap/SceneChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/Scripts/Tilemap/SceneChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/System/Settings/UniversalRP.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GAME_/System/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GAME_/System/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,15 +96,13 @@
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="32180">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="32180" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list>
-          <MonoRuntime />
-        </list>
+        <list />
       </option>
       <option name="selectedOptions">
         <list />
@@ -158,6 +141,7 @@
       <workItem from="1759374956289" duration="4556000" />
       <workItem from="1759806645013" duration="41078000" />
       <workItem from="1760683102211" duration="15721000" />
+      <workItem from="1761798195794" duration="2654000" />
     </task>
     <servers />
   </component>
