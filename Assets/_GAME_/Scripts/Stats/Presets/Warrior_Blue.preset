@@ -34,7 +34,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: statDict._serializedList.Array.data[0].Value
-    value: 20
+    value: 5
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: statDict._serializedList.Array.data[1].Key

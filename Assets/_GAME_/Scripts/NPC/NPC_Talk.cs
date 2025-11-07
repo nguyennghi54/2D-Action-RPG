@@ -2,13 +2,16 @@ using UnityEngine;
 
 public class NPC_Talk : MonoBehaviour
 {
+    private NPC npc;
     private Rigidbody2D rb;
     private Animator anim;
     [SerializeField] private Animator speechAnim;
     [SerializeField] private DialogueSO dialogSO;
+    
     private bool playerInRange;
     void Start()
     {
+        npc = GetComponent<NPC>();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
     }
@@ -22,6 +25,7 @@ public class NPC_Talk : MonoBehaviour
         {
             if (Input.GetButtonDown("Interact"))
             {
+                npc.audioManager.audioSource.PlayOneShot(npc.audioManager.interactSFX);
                 // If a dialog already in playing
                 if (DialogueManager.Instance.isDialogActive)
                 {
@@ -39,7 +43,7 @@ public class NPC_Talk : MonoBehaviour
     {
         rb.linearVelocity = Vector2.zero;
         rb.bodyType = RigidbodyType2D.Kinematic;  // prevent being pushed
-        anim.Play("Idle");
+        anim.Play("NPC_Idle");
         speechAnim.Play("Open");
     }
 

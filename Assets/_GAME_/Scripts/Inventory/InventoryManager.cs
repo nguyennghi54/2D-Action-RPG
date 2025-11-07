@@ -5,14 +5,17 @@ using UnityEngine;
 public class InventoryManager : MonoBehaviour
 {
     public InventorySlot[] itemSlots;
-    public int gold;
+    public int initialGold;
+    [HideInInspector] public int gold;
     [SerializeField] private UseItem useItem;
     public TextMeshProUGUI goldText;
     [SerializeField] private GameObject lootPrefab;
+    private AudioManager audioManager;
     private PlayerPrefab player;
     void OnEnable()
     {
         Loot.OnItemLooted += AddItemToInventory;
+        audioManager = FindFirstObjectByType<AudioManager>();
     }
 
     void OnDisable()
@@ -22,6 +25,7 @@ public class InventoryManager : MonoBehaviour
 
     void Start()
     {
+        gold = initialGold;
         goldText.text = $"{gold}";
         foreach (var slot in itemSlots)
         {
@@ -33,6 +37,7 @@ public class InventoryManager : MonoBehaviour
     {
         if (slot.item != null && slot.quantity >= 0)
         {
+            audioManager.audioSource.PlayOneShot(audioManager.eatSFX);
             useItem.ApplyItemEffect(slot.item, player);
             slot.quantity--;
             if (slot.quantity <= 0)
@@ -96,7 +101,19 @@ public class InventoryManager : MonoBehaviour
         }
         
     }
-
+    /// <summary>
+    /// For reset scene only
+    /// </summary>
+    public void ClearInventory()
+    {
+        foreach (var slot in itemSlots)
+        {
+            slot.item = null;
+            slot.UpdateSlotUI();
+        }
+        gold = initialGold;
+        goldText.text = $"{gold}";
+    }
     private void DropLoot(ItemSO item, int quantity)
     {
         Loot loot = Instantiate(lootPrefab, player.gameObject.transform.position, Quaternion.identity).GetComponent<Loot>();

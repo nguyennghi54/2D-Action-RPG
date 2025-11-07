@@ -25,6 +25,7 @@ public class Shopkeeper : MonoBehaviour
 
     void Start()
     {
+        shopCanvas = GameObject.FindGameObjectWithTag("ShopCanvas").GetComponent<CanvasGroup>();
         facingDir = transform.localScale;
     }
     /// <summary>

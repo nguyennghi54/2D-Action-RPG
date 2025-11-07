@@ -10,9 +10,16 @@ public class Enemy_Combat : MonoBehaviour
     [Header("KnockBack")]
     [SerializeField] private float knockbackForce;
     [SerializeField] private float stunTime;
-    
+    [SerializeField] private AudioManager audioManager;
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     public void Attack()
     {
+        audioSource.PlayOneShot(audioManager.clubSFX);
         // If Player still in weaponRange after entered  => attack
         Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.transform.position, weaponRange, playerLayer);
         if (hits.Length > 0)

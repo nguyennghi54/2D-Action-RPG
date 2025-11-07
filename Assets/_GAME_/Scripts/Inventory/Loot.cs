@@ -7,6 +7,7 @@ public class Loot : MonoBehaviour
 {
     [SerializeField] private ItemSO item;
     [SerializeField] private SpriteRenderer sr;
+    private AudioManager audioManager;
     private Animator anim;
     [SerializeField] private int quantity;
     private bool pickable = true;
@@ -15,6 +16,7 @@ public class Loot : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+        audioManager = FindFirstObjectByType<AudioManager>();
     }
     public void InitLoot(ItemSO item, int quantity)
     {
@@ -43,6 +45,7 @@ public class Loot : MonoBehaviour
     {
         if (other.CompareTag("Player") && pickable)
         {
+            audioManager.audioSource.PlayOneShot(audioManager.lootSFX);
             player = other.gameObject.GetComponent<PlayerPrefab>();
             anim.Play("LootPickup");
             OnItemLooted?.Invoke(item, quantity, player); // pass loot's information

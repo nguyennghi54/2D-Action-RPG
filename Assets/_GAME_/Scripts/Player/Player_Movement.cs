@@ -5,7 +5,20 @@ using UnityEngine;
 
     public class Player_Movement : MonoBehaviour
 {
+    [Header("Speed")]
     private float moveSpeed;
+    private float currentSpeed;
+    public float sprintSpeed;
+    public float dashDuration;
+    public float dashCD;
+    private float dashTimer;
+    private bool isDashing = false;
+    private bool canDash = true;
+    [SerializeField] private TrailRenderer trailRenderer;
+    
+    private float horizontalInput;
+    private float verticalInput;
+    
     private Rigidbody2D rb;
     private Animator anim;
     private Vector2 movingDirection;
@@ -22,6 +35,7 @@ using UnityEngine;
         player = GetComponent<PlayerPrefab>();
         statDict = player.statDict;
         moveSpeed = statDict.GetValueOrDefault(UnitStat.MoveSpeed);
+        currentSpeed = moveSpeed;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -34,10 +48,13 @@ using UnityEngine;
     /// </summary>
     void FixedUpdate()
     {
+        if (isDashing)
+            return;
         if (!isKnockBacked)
         {
-            var horizontalInput =  Input.GetAxis("Horizontal");
-            var verticalInput =  Input.GetAxis("Vertical");
+            horizontalInput =  Input.GetAxis("Horizontal");
+            verticalInput =  Input.GetAxis("Vertical");
+            movingDirection = new Vector2(horizontalInput, verticalInput).normalized;
             anim.SetFloat("horizontal", Mathf.Abs(horizontalInput));
             anim.SetFloat("vertical", Mathf.Abs(verticalInput));
             // Flip facing direction
@@ -57,8 +74,27 @@ using UnityEngine;
         {
             playerCombat.Attack();
         }
+
+        if (Input.GetButtonDown("Sprint") && canDash)
+        {
+            StartCoroutine(Sprint());
+        }
     }
     #endregion Update
+
+    IEnumerator Sprint()
+    {
+        canDash = false;
+        isDashing = true;
+        rb.linearVelocity = new Vector2(movingDirection.x * sprintSpeed, movingDirection.y * sprintSpeed);
+        trailRenderer.emitting = true;
+        yield return new WaitForSeconds(dashDuration);
+        trailRenderer.emitting = false;
+        isDashing = false;
+        yield return new WaitForSeconds(dashCD);
+        canDash = true;
+    }
+    
     void Flip()
     {
         facingDir *= -1;

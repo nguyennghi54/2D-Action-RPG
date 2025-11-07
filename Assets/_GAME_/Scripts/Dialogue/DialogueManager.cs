@@ -30,11 +30,6 @@ public class DialogueManager : MonoBehaviour
             button.gameObject.SetActive(false);
     }
     
-    void Start()
-    {
-        ShowDialog();
-    }
-
     public void StartDialog(DialogueSO dialogSO)
     {
         canvasGroup.alpha = 1;
@@ -108,7 +103,6 @@ public class DialogueManager : MonoBehaviour
         nameText.text = line.speaker.name;
         dialogText.text = line.text;
         dialogIndex++;
-
     }
 
     void ClearChoices()

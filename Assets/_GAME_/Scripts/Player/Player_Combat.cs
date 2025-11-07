@@ -59,6 +59,7 @@ public class Player_Combat : MonoBehaviour
         Collider2D[] enemies = Physics2D.OverlapCircleAll(attackPoint.transform.position, weaponRange, enemyLayer);
         if (enemies.Length > 0)
         {
+            player.audioSource.PlayOneShot(player.audioManager.slashSFX);
             foreach (Collider2D enemy in enemies)
             {
                 enemy.GetComponent<Enemy_Health>().ChangeHealth(-attackDamage);

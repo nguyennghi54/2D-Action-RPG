@@ -1,28 +1,53 @@
 using System.Collections.Generic;
-using AYellowpaper.SerializedCollections;
-using TMPro;
-using UnityEditor;
-using UnityEditor.Presets;
 using UnityEngine;
 
 namespace _GAME_.Scripts.Player
 {
     public class PlayerPrefab : MonoBehaviour
     {
+        public Vector3 spawnPos;
         private float maxHP, moveSpeed, attack, attackCD, weaponRange, knockForce, knockTime, stunTime;
         public Dictionary<UnitStat, float> statDict;
-        [SerializeField] private ScriptableObject unitStatsScript;
+        [SerializeField] private UnitStats initialStat;
         
         [SerializeField] private UnitStats unitStats;
-        [SerializeField] private PlayerHealth playerHealth;
+        [SerializeField] public PlayerHealth playerHealth;
         [HideInInspector] public float level;
         [SerializeField] private StatsUI statsUI;
         
-        [SerializeField] private Preset statPreset;
+        [SerializeField] public AudioSource audioSource;
+        [SerializeField] public AudioManager audioManager;
+        [SerializeField] public ExpManager expManager;
+
+        void Awake()
+        {
+            
+        }
+        void Start()
+        {
+            audioManager = FindFirstObjectByType<AudioManager>();
+        }
+
         private void OnEnable()
         {
+            PopulateInitialStatDict();
+        }
+
+        void PopulateInitialStatDict()
+        {
+            // map stat to initial
+            unitStats.statDict[UnitStat.MaxHP] = initialStat.statDict.GetValueOrDefault(UnitStat.MaxHP);
+            unitStats.statDict[UnitStat.MoveSpeed] = initialStat.statDict.GetValueOrDefault(UnitStat.MoveSpeed);
+            unitStats.statDict[UnitStat.Attack] = initialStat.statDict.GetValueOrDefault(UnitStat.Attack);
+            unitStats.statDict[UnitStat.AttackCD] = initialStat.statDict.GetValueOrDefault(UnitStat.AttackCD);
+            unitStats.statDict[UnitStat.WeaponRange] = initialStat.statDict.GetValueOrDefault(UnitStat.WeaponRange);
+            unitStats.statDict[UnitStat.KnockForce] = initialStat.statDict.GetValueOrDefault(UnitStat.KnockForce);
+            unitStats.statDict[UnitStat.KnockTime] = initialStat.statDict.GetValueOrDefault(UnitStat.KnockTime);
+            unitStats.statDict[UnitStat.StunTime] = initialStat.statDict.GetValueOrDefault(UnitStat.StunTime);
+            // get stat values
             statDict = unitStats.statDict;
             maxHP = statDict.GetValueOrDefault(UnitStat.MaxHP);
+            moveSpeed = statDict.GetValueOrDefault(UnitStat.MoveSpeed);
             attack = statDict.GetValueOrDefault(UnitStat.Attack);
             attackCD = statDict.GetValueOrDefault(UnitStat.AttackCD);
             weaponRange = statDict.GetValueOrDefault(UnitStat.WeaponRange);
@@ -30,34 +55,12 @@ namespace _GAME_.Scripts.Player
             knockTime = statDict.GetValueOrDefault(UnitStat.KnockTime);
             stunTime = statDict.GetValueOrDefault(UnitStat.StunTime);
             maxHP = statDict.TryGetValue(UnitStat.MaxHP, out var value) ? value : maxHP;
-            
-#if UNITY_EDITOR
-            EditorApplication.playModeStateChanged += DetectExitPlay;
-#endif
-        }
-
-        void OnDisable()
-        {
-            EditorApplication.playModeStateChanged -= DetectExitPlay;
         }
         
-        #region ResetStatWhenExit
-        #if UNITY_EDITOR
-        void DetectExitPlay(PlayModeStateChange state)
+        public void ResetStat()
         {
-            if (state == PlayModeStateChange.ExitingPlayMode)
-                ResetStat();
-            /*if (!EditorApplication.isPlayingOrWillChangePlaymode && EditorApplication.isPlaying)
-                ResetStat();*/
+            PopulateInitialStatDict();
         }
-        #endif
-       
-        void ResetStat()
-        {
-            statPreset.ApplyTo(unitStatsScript);
-            
-        }
-        #endregion
         
         public void UpdateMaxHP(int amount)
         {

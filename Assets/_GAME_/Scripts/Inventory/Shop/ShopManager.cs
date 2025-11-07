@@ -13,12 +13,18 @@ public class ShopManager : MonoBehaviour
     [SerializeField] private ShopSlot[] shopSlots;
     [SerializeField] private InventoryManager invManager;
     [SerializeField] private PlayerPrefab player;
+    private AudioManager audioManager;
     [System.Serializable]
     public class ShopItems
     {
         public ItemSO item;
         public int price;
         
+    }
+
+    void Start()
+    {
+        audioManager = FindFirstObjectByType<AudioManager>();
     }
     public void PopulateShopSlots(List<ShopItems> shopItems)
     {
@@ -44,6 +50,7 @@ public class ShopManager : MonoBehaviour
         {
             if (HasSpaceForItem(item))
             {
+                audioManager.audioSource.PlayOneShot(audioManager.buySFX);
                 invManager.gold -= price;
                 invManager.goldText.text = $"{invManager.gold}";
                 invManager.AddItemToInventory(item, 1, player);

@@ -12,6 +12,7 @@ using UnityEngine;
         private PlayerPrefab player;
         private Dictionary<UnitStat, float> statDict;
         private SpriteRenderer playerSprite;
+        [SerializeField] private GameManager gameManager;
         void Start()
         {
             player = GetComponent<PlayerPrefab>();
@@ -40,7 +41,8 @@ using UnityEngine;
             healthTextAnim.Play("TextUpdate");
             if (currentHealth <= 0)
             {
-                gameObject.SetActive(false);
+                AudioSource.PlayClipAtPoint(player.audioManager.deathSFX, transform.position);
+                gameManager.EnableGameOverUI(true);
             }
         }
         IEnumerator HurtAnimation()

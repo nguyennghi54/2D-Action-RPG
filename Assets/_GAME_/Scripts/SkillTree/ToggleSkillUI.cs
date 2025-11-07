@@ -18,6 +18,7 @@ public class ToggleSkillUI : MonoBehaviour
             {
                 Time.timeScale = 1;
                 skillUI.alpha = 0;
+                skillUI.interactable = false;
                 skillUI.blocksRaycasts = false;
                 skillOpen = false;
             }
@@ -25,6 +26,7 @@ public class ToggleSkillUI : MonoBehaviour
             {
                 Time.timeScale = 0; // pause game
                 skillUI.alpha = 1;
+                skillUI.interactable = true;
                 skillUI.blocksRaycasts = true;
                 skillOpen = true;
             }

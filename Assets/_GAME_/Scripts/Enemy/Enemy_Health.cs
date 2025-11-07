@@ -6,12 +6,14 @@ public class Enemy_Health : MonoBehaviour
 {
     [SerializeField] private float maxHealth;
     private float currentHealth;
+    private Enemy enemy;
     private SpriteRenderer enemySprite;
     [SerializeField] private int expReward; // EXP Player gain when enemy defeated
     public delegate void EnemyDefeated(int exp);
     public static event EnemyDefeated OnEnemyDefeated;
     void Start()
     {
+        enemy = GetComponent<Enemy>();
         currentHealth = maxHealth;
         enemySprite = GetComponent<SpriteRenderer>();
     }
@@ -32,6 +34,7 @@ public class Enemy_Health : MonoBehaviour
         else if (currentHealth <= 0)
         {
             OnEnemyDefeated(expReward);
+            AudioSource.PlayClipAtPoint(enemy.audioManager.deathSFX, transform.position);
             Destroy(gameObject);
         }
     }

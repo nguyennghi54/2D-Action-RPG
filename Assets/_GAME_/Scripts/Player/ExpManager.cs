@@ -13,10 +13,12 @@ public class ExpManager : MonoBehaviour
     [Header("UI")]
     [SerializeField] private Slider expSlider;
     [SerializeField] private TMP_Text expText;
+    private int initialExpToNextLevel;
     public static event Action<int> OnLevelUp;
     public void Start()
     {
         expToNextLevel = 10;
+        initialExpToNextLevel = expToNextLevel;
         UpdateUI();
     }
     
@@ -40,6 +42,13 @@ public class ExpManager : MonoBehaviour
             GainExperience(2);
         }
     }
+
+    public void ResetLevel()
+    {
+        expSlider.maxValue = initialExpToNextLevel;
+        expSlider.value = 0;
+        expText.text = $"LEVEL: {player.level}";
+    }
     public void GainExperience(int amount)
     {
         currentExp += amount;
@@ -53,6 +62,7 @@ public class ExpManager : MonoBehaviour
 
     private void LevelUp()
     {
+        player.audioManager.audioSource.PlayOneShot(player.audioManager.levelupSFX);
         player.level++;
         currentExp -= expToNextLevel;
         expToNextLevel = Mathf.RoundToInt(expToNextLevel * expGrowthMultiplier);

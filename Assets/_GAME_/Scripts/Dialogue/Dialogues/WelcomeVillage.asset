@@ -20,5 +20,7 @@ MonoBehaviour:
     nextDialog: {fileID: 11400000, guid: 279bc190370dac04b8680d88fd04839c, type: 2}
   - optionText: What is this place?
     nextDialog: {fileID: 11400000, guid: 46c7624454ad05c4ba261a135cce2a8b, type: 2}
+  - optionText: What should I do?
+    nextDialog: {fileID: 11400000, guid: 69bfc6578eebd6b44a865edfd13cdff9, type: 2}
   - optionText: Not interested.
     nextDialog: {fileID: 11400000, guid: 73bc6f435cbc19f4caec5f3552de0db8, type: 2}

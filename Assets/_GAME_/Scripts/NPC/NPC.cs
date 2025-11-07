@@ -14,9 +14,10 @@ public class NPC : MonoBehaviour
     public NPC_Talk talk;
     public NPC_Patrol patrol;
     public NPC_Wander wander;
-
+    [SerializeField] public AudioManager audioManager;
     void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         defaultState = currentState;
         SwitchState(currentState);
     }
@@ -24,9 +25,12 @@ public class NPC : MonoBehaviour
     public void SwitchState(NPCState newState)
     {
         currentState = newState;
-        patrol.enabled = newState == NPCState.Patrol;
-        wander.enabled = newState == NPCState.Wander;
-        talk.enabled = newState == NPCState.Talk;
+        if(patrol!=null)
+            patrol.enabled = newState == NPCState.Patrol;
+        if(wander!=null)
+            wander.enabled = newState == NPCState.Wander;
+        if(talk!=null)
+            talk.enabled = newState == NPCState.Talk;
     }
     
     /// <summary>

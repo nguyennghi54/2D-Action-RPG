@@ -13,6 +13,7 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
 
     private InventoryManager invManager;
     private static ShopManager activeShop;
+    
     void Start()
     {
         invManager = transform.parent.GetComponentInParent<InventoryManager>();
@@ -34,10 +35,7 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
     private void HandleShopStateChanged(ShopManager shopManager, bool isOpen)
     {
         activeShop = isOpen ? shopManager : null;   // if shop's open, pass in shopManager
-        
-
     }
-
     /// <summary>
     /// When click on slot, 
     /// If left click, use item. Right click, drop item
