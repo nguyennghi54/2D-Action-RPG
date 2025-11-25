@@ -32,7 +32,10 @@ namespace _GAME_.Scripts.Player
         {
             PopulateInitialStatDict();
         }
-
+            
+        /// <summary>
+        /// Khởi tạo ingame copy của stat dictionary (reset khi thoát game)
+        /// </summary>
         void PopulateInitialStatDict()
         {
             // map stat to initial

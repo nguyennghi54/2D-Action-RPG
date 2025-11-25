@@ -3,6 +3,9 @@ using _GAME_.Scripts.Player;
 using Unity.Cinemachine;
 using UnityEngine;
 
+/// <summary>
+/// Script xử lý nhặt item
+/// </summary>
 public class Loot : MonoBehaviour
 {
     [SerializeField] private ItemSO item;

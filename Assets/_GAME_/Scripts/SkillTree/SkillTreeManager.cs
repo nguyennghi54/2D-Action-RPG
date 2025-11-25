@@ -5,8 +5,8 @@ public class SkillTreeManager : MonoBehaviour
 {
     [SerializeField] private SkillSlot[] slotList;
     [SerializeField] private TextMeshProUGUI pointText;
-    [SerializeField] private int availPoints;
-    
+    [SerializeField] public int availPoints;
+    public int initialPoints;
     void OnEnable()
     {
         SkillSlot.OnSkillPointSpent += HandleSkillPointSpent;
@@ -22,6 +22,7 @@ public class SkillTreeManager : MonoBehaviour
     
     void Start()
     {
+        initialPoints = availPoints;
         foreach (var slot in slotList)
         {
             slot.skillButton.onClick.AddListener(() => CheckAvailPoints(slot));

@@ -108,7 +108,7 @@ public class Enemy_Movement : MonoBehaviour
     void ChasePlayer()
     {
         // Flip logic
-        if (playerPos.x < transform.position.x && facingDir == 1 ||
+        if (playerPos.x < gameObject.transform.position.x && facingDir == 1 ||
             playerPos.x > transform.position.x && facingDir == -1) // Player approach from behind
         {
             Flip();

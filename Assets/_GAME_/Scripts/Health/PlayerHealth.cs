@@ -29,7 +29,10 @@ using UnityEngine;
             maxHealth = statDict.GetValueOrDefault(UnitStat.MaxHP);
             healthText.text = $"HP:{currentHealth}/{maxHealth}";
         }
-        
+        /// <summary>
+        /// Khi bị tấn công: thay đổi HP hiện tại, nếu cạn -> GameOver
+        /// </summary>
+        /// <param name="change"></param>
         public void ChangeHealth(int change)
         {
             if(Mathf.Sign(change) == -1)

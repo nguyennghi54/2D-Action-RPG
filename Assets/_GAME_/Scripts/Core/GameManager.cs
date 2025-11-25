@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     public GameObject[] persistentList;
     [Header("Reset")] [SerializeField] private PlayerPrefab player;
     [SerializeField] private InventoryManager invManager;
+    [SerializeField] private SkillTreeManager skillTreeManager;
     public AudioManager audioManager;
 
     public Enemy[] enemyList;
@@ -64,8 +65,9 @@ public class GameManager : MonoBehaviour
         player.level = 0;
         player.expManager.ResetLevel();
         enemyCount = 0;
+        skillTreeManager.UpdateSkillPoint(skillTreeManager.initialPoints);
     }
-
+    
     public void EnableGameOverUI(bool enable)
     {
         audioManager.audioSource.Stop();
